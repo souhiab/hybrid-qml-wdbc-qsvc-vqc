@@ -1,0 +1,9 @@
+k,Model,Feature_Map,Entanglement,Reps,Test_Acc_%,AUC_%,F1_%,Overfit_%,Depth,Duration_sec,TP,FP,TN,FN,Scaling
+4,QSVC,ZFeatureMap,full,1,96.49,99.4,97.22,0.65,,486.2687,70,2,40,2,Normalization
+4,VQC,ZFeatureMap,full,3,92.11,97.06,94.04,-2.65,,580.4493,71,8,34,1,Normalization
+7,QSVC,PauliFeatureMap,circular,4,98.25,98.81,98.63,-1.76,,934.6466,72,2,40,0,Normalization
+7,VQC,ZFeatureMap,circular,2,89.47,97.92999999999999,92.31,-2.22,,760.1424,72,12,30,0,Normalization
+11,QSVC,PauliFeatureMap,linear,4,98.25,98.74000000000001,98.61,1.31,,3002.5648,71,1,41,1,Normalization
+11,VQC,ZFeatureMap,linear,3,87.72,93.22,90.79,0.8500000000000001,,2050.8353,69,11,31,3,Normalization
+17,QSVC,ZFeatureMap,full,1,97.37,99.44,97.92999999999999,0.43,,53009.9793,71,2,40,1,Normalization
+17,VQC,PauliFeatureMap,full,1,67.54,81.02000000000001,73.38,3.88,,120829.3816,51,16,26,21,Normalization
