@@ -30,6 +30,7 @@ credentials/
 
 # Internal AI / tooling / development notes - keep local, do not publish
 PUBLICATION_CLEANUP_AUDIT.md
+response_to_editor.md
 .claude/
 CLAUDE.md
 .codex/

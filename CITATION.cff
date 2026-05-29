@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Hybrid Quantum-Classical Breast Cancer Classification: A Systematic Study of Feature Maps, Entanglement, and Scaling on WDBC"
+message: "If you use this code, please cite the associated manuscript."
+type: software
+authors:
+  - family-names: Benbouazza
+    given-names: Souhaib
+# Add co-authors here exactly as they appear in the manuscript, e.g.:
+#  - family-names: <Family>
+#    given-names: <Given>
+repository-code: "https://github.com/souhiab/hybrid-qml-wdbc-qsvc-vqc"
+license: "MIT"
+keywords:
+  - quantum machine learning
+  - quantum support vector classifier
+  - variational quantum classifier
+  - breast cancer classification
+  - WDBC

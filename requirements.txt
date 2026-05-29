@@ -1,0 +1,29 @@
+# Python dependencies for the hybrid QML WDBC experiments.
+# The quantum stack is pinned to the versions used to produce the reported
+# results; the classical scientific stack uses conservative lower bounds.
+# See docs/reproducibility.md for details and environment notes.
+
+# --- Core scientific stack ---
+numpy>=1.24
+pandas>=1.5
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.6
+seaborn>=0.12
+joblib>=1.2
+tqdm>=4.64
+
+# --- Quantum stack (pinned to the versions used for the experiments) ---
+qiskit==2.2.1
+qiskit-aer==0.17.2
+qiskit-machine-learning==0.8.2
+qiskit-algorithms>=0.3.0
+
+# --- Real-QPU execution and measurement-error mitigation ---
+# Only required to run qsvm_on_wcds/REAL_QPU.ipynb on IBM Quantum hardware.
+qiskit-ibm-runtime==0.42.0
+mthree>=2.6
+
+# --- Notebook environment ---
+jupyter
+ipykernel
