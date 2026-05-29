@@ -4,10 +4,15 @@ message: "If you use this code, please cite the associated manuscript."
 type: software
 authors:
   - family-names: Benbouazza
-    given-names: Souhaib
-# Add co-authors here exactly as they appear in the manuscript, e.g.:
-#  - family-names: <Family>
-#    given-names: <Given>
+    given-names: S.
+  - family-names: Slaoui
+    given-names: A.
+  - family-names: Ahl Laamara
+    given-names: R.
+  - family-names: Abdullah
+    given-names: A.
+  - family-names: Bouhali
+    given-names: O.
 repository-code: "https://github.com/souhiab/hybrid-qml-wdbc-qsvc-vqc"
 license: "MIT"
 keywords:
