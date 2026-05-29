@@ -59,30 +59,30 @@ submission/
 /quantum_each_results.csv
 /quantum_no_scaling_qsvc_results.csv
 
-# qsvm_on_wcds generated directories
-/qsvm_on_wcds/figures/
-/qsvm_on_wcds/kernels_noisy_aer_brisbane/
-/qsvm_on_wcds/outputs/
-/qsvm_on_wcds/New folder/
-/qsvm_on_wcds/real QPU/
-/qsvm_on_wcds/saved_models/
-/qsvm_on_wcds/saved_sphere_assets/
-/qsvm_on_wcds/section_451_outputs/
-/qsvm_on_wcds/wdbc_spheres/
+# qsvm_on_wdbc generated directories
+/qsvm_on_wdbc/figures/
+/qsvm_on_wdbc/kernels_noisy_aer_brisbane/
+/qsvm_on_wdbc/outputs/
+/qsvm_on_wdbc/New folder/
+/qsvm_on_wdbc/real QPU/
+/qsvm_on_wdbc/saved_models/
+/qsvm_on_wdbc/saved_sphere_assets/
+/qsvm_on_wdbc/section_451_outputs/
+/qsvm_on_wdbc/wdbc_spheres/
 
-# qsvm_on_wcds generated single-file artifacts
-/qsvm_on_wcds/*.png
-/qsvm_on_wcds/*.pdf
-/qsvm_on_wcds/*.db
-/qsvm_on_wcds/Screenshot *.png
-/qsvm_on_wcds/timing .txt
+# qsvm_on_wdbc generated single-file artifacts
+/qsvm_on_wdbc/*.png
+/qsvm_on_wdbc/*.pdf
+/qsvm_on_wdbc/*.db
+/qsvm_on_wdbc/Screenshot *.png
+/qsvm_on_wdbc/timing .txt
 
-# qsvm_on_wcds result tables and checkpoints
-/qsvm_on_wcds/*.csv
-!/qsvm_on_wcds/CLASSICAL_svm_on_rfe_configs.csv
-!/qsvm_on_wcds/classical_rfe_configs_with_auc_checked.csv
-!/qsvm_on_wcds/classical_rfe_fixed_counts.csv
+# qsvm_on_wdbc result tables and checkpoints
+/qsvm_on_wdbc/*.csv
+!/qsvm_on_wdbc/CLASSICAL_svm_on_rfe_configs.csv
+!/qsvm_on_wdbc/classical_rfe_configs_with_auc_checked.csv
+!/qsvm_on_wdbc/classical_rfe_fixed_counts.csv
 
 # Keep a small tracked table manifest; ignore other table exports
-/qsvm_on_wcds/tables/*
-!/qsvm_on_wcds/tables/table3_best_configs.csv
+/qsvm_on_wdbc/tables/*
+!/qsvm_on_wdbc/tables/table3_best_configs.csv

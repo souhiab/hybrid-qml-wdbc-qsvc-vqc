@@ -1,4 +1,4 @@
-# qsvm_on_wcds
+# qsvm_on_wdbc
 
 This directory contains the working source for the WDBC QSVC/VQC project.
 

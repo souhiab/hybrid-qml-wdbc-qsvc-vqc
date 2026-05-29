@@ -51,7 +51,7 @@ The same data is publicly available from the UCI Machine Learning Repository.
 - **Train/test split:** `train_test_split(..., test_size=0.2,
   random_state=42, stratify=y)`. The fixed seed (`42`) makes the split
   deterministic. The exact indices are also stored in
-  `qsvm_on_wcds/splits/split_idx.json` for cross-checking.
+  `qsvm_on_wdbc/splits/split_idx.json` for cross-checking.
 - **Scaling:** classical baselines are evaluated under Standardization
   (`StandardScaler`), Normalization (`MinMaxScaler`/normalization), and the
   no-scaling condition. The quantum no-scaling sweep
@@ -59,16 +59,16 @@ The same data is publicly available from the UCI Machine Learning Repository.
 - **Feature selection:** Recursive Feature Elimination (RFE) is used to select
   feature subsets of sizes **k = 4, 7, 11, 17, 18**. The selected feature sets
   are recorded in:
-  - `qsvm_on_wcds/classical_rfe_fixed_counts.csv`
-  - `qsvm_on_wcds/classical_rfe_configs_with_auc_checked.csv`
-  - `qsvm_on_wcds/CLASSICAL_svm_on_rfe_configs.csv`
+  - `qsvm_on_wdbc/classical_rfe_fixed_counts.csv`
+  - `qsvm_on_wdbc/classical_rfe_configs_with_auc_checked.csv`
+  - `qsvm_on_wdbc/CLASSICAL_svm_on_rfe_configs.csv`
 
 ## 4. Classical baselines
 
 The best classical configuration per feature count is summarized in
-`qsvm_on_wcds/best_classical_table.md` (Logistic Regression with
+`qsvm_on_wdbc/best_classical_table.md` (Logistic Regression with
 Standardization is the strongest baseline, reaching ~0.991 test accuracy at
-k = 17/18). These are reproduced inside `qsvm_on_wcds/qsvm.ipynb`.
+k = 17/18). These are reproduced inside `qsvm_on_wdbc/qsvm.ipynb`.
 
 ## 5. Quantum experiments (QSVC / VQC)
 
@@ -85,7 +85,7 @@ The quantum study sweeps the following configuration grid:
 ### 5.1 No-scaling QSVC sweep (script)
 
 ```bash
-cd qsvm_on_wcds
+cd qsvm_on_wdbc
 python quantum_no_scaling_sweep.py
 ```
 
@@ -97,7 +97,7 @@ computed (k, feature_map, entanglement, reps) combinations are skipped.
 ### 5.2 Main study (notebook)
 
 ```bash
-jupyter notebook qsvm_on_wcds/qsvm.ipynb
+jupyter notebook qsvm_on_wdbc/qsvm.ipynb
 ```
 
 Run the cells top-to-bottom to reproduce the classical baselines, the
@@ -105,7 +105,7 @@ QSVC/VQC sweeps, the scaling comparison, and the analysis/plots.
 
 ### 5.3 Real-QPU follow-up (optional)
 
-`qsvm_on_wcds/REAL_QPU.ipynb` runs the selected configuration on IBM Quantum
+`qsvm_on_wdbc/REAL_QPU.ipynb` runs the selected configuration on IBM Quantum
 hardware and with noisy Aer simulation. It requires an IBM Quantum account.
 **Provide your token via an environment variable — never hard-code it:**
 
@@ -124,11 +124,11 @@ computed with scikit-learn.
 
 ## 7. Figures and tables
 
-Figures and result tables are generated inside `qsvm_on_wcds/qsvm.ipynb` and
-`qsvm_on_wcds/explo.ipynb` from the result CSVs. Generated image/PDF/CSV
+Figures and result tables are generated inside `qsvm_on_wdbc/qsvm.ipynb` and
+`qsvm_on_wdbc/explo.ipynb` from the result CSVs. Generated image/PDF/CSV
 artifacts are intentionally **not** version-controlled (see `.gitignore`);
 re-running the notebooks regenerates them. The compact best-configuration
-manifest is tracked at `qsvm_on_wcds/tables/table3_best_configs.csv`.
+manifest is tracked at `qsvm_on_wdbc/tables/table3_best_configs.csv`.
 
 ## 8. Random seeds and reproducibility notes
 

@@ -41,7 +41,7 @@ clinical data are included in this repository.**
 │   └── manuscript_availability.md
 ├── scripts/
 │   └── smoke_test.py            # quick environment / pipeline sanity check
-└── qsvm_on_wcds/
+└── qsvm_on_wdbc/
     ├── qsvm.ipynb               # main study: classical baselines + QSVC/VQC sweeps + analysis
     ├── REAL_QPU.ipynb           # real-QPU + noisy-simulation follow-up (IBM Quantum)
     ├── explo.ipynb              # exploratory analysis and figures
@@ -81,7 +81,7 @@ python scripts/smoke_test.py
 The no-scaling QSVC sweep (command-line, resumable):
 
 ```bash
-cd qsvm_on_wcds
+cd qsvm_on_wdbc
 python quantum_no_scaling_sweep.py
 ```
 
@@ -90,7 +90,7 @@ sweeps, the scaling comparison, and all figures/tables, is reproduced by
 running the notebook top-to-bottom:
 
 ```bash
-jupyter notebook qsvm_on_wcds/qsvm.ipynb
+jupyter notebook qsvm_on_wdbc/qsvm.ipynb
 ```
 
 See **[docs/reproducibility.md](docs/reproducibility.md)** for the detailed
@@ -100,7 +100,7 @@ generated.
 
 ### Expected outputs
 
-- `qsvm_on_wcds/quantum_no_scaling_qsvc_results.csv` — one row per
+- `qsvm_on_wdbc/quantum_no_scaling_qsvc_results.csv` — one row per
   (feature count, feature map, entanglement, reps) with accuracy, AUC, F1,
   the overfit gap, and the confusion-matrix breakdown.
 - Notebook runs regenerate the comparison tables and figures referenced in the
@@ -108,7 +108,7 @@ generated.
 
 ### Real-QPU runs (optional)
 
-`qsvm_on_wcds/REAL_QPU.ipynb` targets IBM Quantum hardware and noisy Aer
+`qsvm_on_wdbc/REAL_QPU.ipynb` targets IBM Quantum hardware and noisy Aer
 simulation. Provide your IBM Quantum API token through an environment variable
 (never hard-code it):
 
