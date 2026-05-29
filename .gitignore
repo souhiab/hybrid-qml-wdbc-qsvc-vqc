@@ -29,6 +29,7 @@ credentials/
 *.token
 
 # Internal AI / tooling / development notes - keep local, do not publish
+PUBLICATION_CLEANUP_AUDIT.md
 .claude/
 CLAUDE.md
 .codex/
