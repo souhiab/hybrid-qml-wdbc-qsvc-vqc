@@ -1,14 +1,51 @@
 # OS / editor noise
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 .ipynb_checkpoints/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.log
+*.tmp
+*.bak
+*.old
 
 # Local environments
 .venv/
 venv/
 env/
+
+# Local secrets and environment files (never publish credentials)
+.env
+*.env
+.env.*
+secrets/
+credentials/
+*.key
+*.pem
+*.token
+
+# Internal AI / tooling / development notes - keep local, do not publish
+.claude/
+CLAUDE.md
+.codex/
+codex/
+prompts/
+prompt_logs/
+chat_logs/
+agent_logs/
+scratch/
+tmp/
+temp/
+drafts/
+notes/
+internal/
+private/
+reviewer_reports/
+submission/
 
 # Vendored dependency checkout
 /qiskit-machine-learning/
