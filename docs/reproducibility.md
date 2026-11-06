@@ -15,8 +15,9 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-The quantum stack is pinned in `requirements.txt` to the versions used to
-produce the reported results:
+The table lists the historical repository pins in `requirements.txt`.
+The original execution-time package lock is unavailable. The corrected QSVC
+check used Python 3.11.5, Qiskit 1.4.2 and Qiskit Machine Learning 0.8.4.
 
 | Package | Version |
 |---------|---------|
@@ -25,11 +26,8 @@ produce the reported results:
 | qiskit-machine-learning | 0.8.2 |
 | qiskit-ibm-runtime | 0.42.0 (real-QPU only) |
 
-The classical scientific stack (numpy, pandas, scipy, scikit-learn,
-matplotlib, seaborn) uses conservative lower bounds. Exact classical versions
-are not pinned because the classical results are numerically stable across
-recent releases; if you need bit-for-bit reproduction, pin them to the
-versions installed in your environment (`pip freeze`).
+The classical scientific stack uses lower bounds. Record the resolved versions
+with `pip freeze` for any new evaluation.
 
 ## 2. Dataset
 
@@ -54,11 +52,12 @@ The same data is publicly available from the UCI Machine Learning Repository.
   `qsvm_on_wdbc/splits/split_idx.json` for cross-checking.
 - **Scaling:** classical baselines are evaluated under Standardization
   (`StandardScaler`), Normalization (`MinMaxScaler`/normalization), and the
-  no-scaling condition. The quantum no-scaling sweep
-  (`quantum_no_scaling_sweep.py`) deliberately uses raw features.
+  no-scaling condition. Simulator fits estimate scaling and RFE on the 455
+  training rows. The no-scaling QSVC uses scaling only for RFE and passes raw
+  selected columns to the kernel.
 - **Feature selection:** Recursive Feature Elimination (RFE) is used to select
-  feature subsets of sizes **k = 4, 7, 11, 17, 18**. The selected feature sets
-  are recorded in:
+  feature subsets of sizes **k = 4, 7, 11, 17, 18**. The following tables
+  contain archived feature sets and scores:
   - `qsvm_on_wdbc/classical_rfe_fixed_counts.csv`
   - `qsvm_on_wdbc/classical_rfe_configs_with_auc_checked.csv`
   - `qsvm_on_wdbc/CLASSICAL_svm_on_rfe_configs.csv`
@@ -68,7 +67,7 @@ The same data is publicly available from the UCI Machine Learning Repository.
 The best classical configuration per feature count is summarized in
 `qsvm_on_wdbc/best_classical_table.md` (Logistic Regression with
 Standardization is the strongest baseline, reaching ~0.991 test accuracy at
-k = 17/18). These are reproduced inside `qsvm_on_wdbc/qsvm.ipynb`.
+k = 17/18). The notebook writes training-only evaluations to separate files.
 
 ## 5. Quantum experiments (QSVC / VQC)
 
@@ -89,24 +88,29 @@ cd qsvm_on_wdbc
 python quantum_no_scaling_sweep.py
 ```
 
-This reads `classical_rfe_fixed_counts.csv`, runs the full QSVC grid on raw
-(unscaled) RFE features, and appends rows to
-`quantum_no_scaling_qsvc_results.csv`. The script is resumable: already
-computed (k, feature_map, entanglement, reps) combinations are skipped.
+The script reads the first archived RFE configuration key per width, refits
+its feature selector on the training cases and uses raw selected features for
+QSVC. Results are appended to `quantum_no_scaling_qsvc_results_train_only.csv`.
+The resume key is (k, feature map, entanglement, repetitions).
 
 ### 5.2 Main study (notebook)
 
 ```bash
-jupyter notebook qsvm_on_wdbc/qsvm.ipynb
+cd qsvm_on_wdbc
+jupyter notebook qsvm.ipynb
 ```
 
-Run the cells top-to-bottom to reproduce the classical baselines, the
-QSVC/VQC sweeps, the scaling comparison, and the analysis/plots.
+The scaled QSVC/VQC fit cell uses widths 4, 7, 11 and 17. It refits scaling
+and RFE for each preprocessing configuration and writes
+`quantum_each_results_train_only.csv`. Resume from that file in the same
+environment. The later historical analysis cells read the original archive
+filenames. Keep those inputs separate from new evaluations.
 
 ### 5.3 Real-QPU follow-up (optional)
 
-`qsvm_on_wdbc/REAL_QPU.ipynb` runs the selected configuration on IBM Quantum
-hardware and with noisy Aer simulation. It requires an IBM Quantum account.
+`qsvm_on_wdbc/REAL_QPU.ipynb` records historical device and noisy-Aer workflows.
+Some archived hardware workflows fitted preprocessing on the full dataset.
+Treat their outputs as historical feasibility evidence. It requires an IBM Quantum account.
 **Provide your token via an environment variable — never hard-code it:**
 
 ```bash
