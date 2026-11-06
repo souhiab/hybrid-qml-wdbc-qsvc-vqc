@@ -6,7 +6,7 @@ import pandas as pd
 from tqdm.auto import tqdm
 
 from sklearn.datasets        import load_breast_cancer
-from sklearn.model_selection import train_test_split
+from fixed_split_preprocessing import fixed_split, prepare_features
 from sklearn.metrics         import (
     accuracy_score, roc_auc_score, f1_score, confusion_matrix
 )
@@ -16,21 +16,10 @@ from qiskit.circuit.library                      import (
 )
 from qiskit_machine_learning.kernels             import FidelityStatevectorKernel
 from qiskit_machine_learning.algorithms.classifiers import QSVC
-from qiskit.primitives                           import StatevectorSampler
 
-def run_job(feats, k, fmap_name, ent, reps,
-            X_raw, y, fmap_cache, out_csv):
+def run_job(k, fmap_name, ent, reps, X_tr_sel, X_te_sel, y_tr, y_te,
+            fmap_cache, out_csv):
     t0 = time.time()
-
-    # split raw data (no scaling)
-    X_tr, X_te, y_tr, y_te = train_test_split(
-        X_raw, y, test_size=0.2, random_state=42, stratify=y
-    )
-
-    # select only the RFE features
-    idxs     = [X_raw.columns.get_loc(f) for f in feats]
-    X_tr_sel = X_tr.values[:, idxs]
-    X_te_sel = X_te.values[:, idxs]
 
     # look up cached feature map & run QSVC
     fmap = fmap_cache[(k, fmap_name, ent, reps)]
@@ -79,18 +68,15 @@ def safe_run_job(*args, **kwargs):
         return None
 
 if __name__ == "__main__":
-    # load all RFE results (all feature‐counts: 4,7,11,17,18)
-    results_df = pd.read_csv(
-        'classical_rfe_fixed_counts.csv',
-        converters={'Selected Features': pd.eval}
-    )
+    # The original output key has no scaler or estimator. Keep the first
+    # configuration per width, as used by the historical resume key.
+    results_df = pd.read_csv('classical_rfe_fixed_counts.csv')[
+        ['Scaling', 'Estimator', 'n_features']
+    ].drop_duplicates(subset='n_features')
 
-    data  = load_breast_cancer()
+    data = load_breast_cancer()
     X_raw = pd.DataFrame(data.data, columns=data.feature_names)
-    y     = data.target
-
-    nfeat_col = 'n_features'
-    feats_col = 'Selected Features'
+    X_tr, X_te, y_tr, y_te = fixed_split(X_raw, data.target)
 
     # feature‐map factories
     feature_map_builders = {
@@ -102,7 +88,7 @@ if __name__ == "__main__":
     reps_list     = [1,2,3,4]   # <-- now all four reps
 
     # CSV setup
-    out_csv = 'quantum_no_scaling_qsvc_results.csv'
+    out_csv = 'quantum_no_scaling_qsvc_results_train_only.csv'
     header = [
         'n_features','Feature_Map','Entanglement','Reps',
         'QSVC_Train_Acc','QSVC_Test_Acc','QSVC_Overfit',
@@ -124,8 +110,7 @@ if __name__ == "__main__":
     # cache all feature maps
     fmap_cache = {}
     for _, row in results_df.iterrows():
-        k     = int(row[nfeat_col])
-        feats = row[feats_col]
+        k = int(row['n_features'])
         for fmap_name, builder in feature_map_builders.items():
             for ent in entanglements:
                 for reps in reps_list:
@@ -134,15 +119,22 @@ if __name__ == "__main__":
     # build the job list
     jobs = []
     for _, row in results_df.iterrows():
-        k     = int(row[nfeat_col])
-        feats = row[feats_col]
+        k = int(row['n_features'])
+        pending = []
         for fmap_name in feature_map_builders:
             for ent in entanglements:
                 for reps in reps_list:
                     key = (k, fmap_name, ent, reps)
                     if key not in existing:
-                        jobs.append((feats, k, fmap_name, ent, reps,
-                                     X_raw, y, fmap_cache, out_csv))
+                        pending.append(key)
+        if pending:
+            train_selected, test_selected, _ = prepare_features(
+                X_tr, X_te, y_tr, row['Scaling'], row['Estimator'], k, raw=True
+            )
+            jobs.extend(
+                (*key, train_selected, test_selected, y_tr, y_te, fmap_cache, out_csv)
+                for key in pending
+            )
 
     print(f"🚀 {len(jobs)} new jobs to run.\n")
 

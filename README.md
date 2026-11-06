@@ -67,7 +67,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-The quantum stack is pinned to the versions used for the reported experiments
+The requirements file records the historical repository pins
 (`qiskit==2.2.1`, `qiskit-aer==0.17.2`, `qiskit-machine-learning==0.8.2`).
 
 ## Reproducing the experiments
@@ -85,13 +85,19 @@ cd qsvm_on_wdbc
 python quantum_no_scaling_sweep.py
 ```
 
-The full study, including classical baselines, the QSVC/VQC configuration
-sweeps, the scaling comparison, and all figures/tables, is reproduced by
-running the notebook top-to-bottom:
+Open the simulation notebook from its own directory:
 
 ```bash
-jupyter notebook qsvm_on_wdbc/qsvm.ipynb
+cd qsvm_on_wdbc
+jupyter notebook qsvm.ipynb
 ```
+
+The classical and quantum simulation fit cells split the raw data before
+fitting scaling and RFE. They write separate `*_train_only.csv` files. The
+historical CSVs, analysis cells, and hardware notebook document the archived
+study. Fixed-split scores describe performance on the original test cases.
+Use the manuscript's repeated evaluation for comparisons with training-only
+model selection.
 
 See **[docs/reproducibility.md](docs/reproducibility.md)** for the detailed
 methodology: preprocessing, RFE feature selection, feature maps, entanglement
@@ -100,11 +106,10 @@ generated.
 
 ### Expected outputs
 
-- `qsvm_on_wdbc/quantum_no_scaling_qsvc_results.csv` — one row per
+- `qsvm_on_wdbc/quantum_no_scaling_qsvc_results_train_only.csv` — one row per
   (feature count, feature map, entanglement, reps) with accuracy, AUC, F1,
   the overfit gap, and the confusion-matrix breakdown.
-- Notebook runs regenerate the comparison tables and figures referenced in the
-  manuscript.
+- The scaled simulator sweep writes `qsvm_on_wdbc/quantum_each_results_train_only.csv`.
 
 ### Real-QPU runs (optional)
 
