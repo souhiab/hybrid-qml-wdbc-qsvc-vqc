@@ -1,0 +1,10 @@
+{
+  "alias_semantics_verified": true,
+  "dense_matrix_path_only_at_four_qubits": true,
+  "finite_shot_probability_arrays_identical": true,
+  "max_statevector_absolute_error": 1.1631705747361534e-16,
+  "passed": true,
+  "probability_checks": 48,
+  "qubits": 7,
+  "validation_inputs": "Two cases from internal training cache p0; no evaluation cohort used"
+}

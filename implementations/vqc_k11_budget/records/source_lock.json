@@ -1,0 +1,17 @@
+{
+  "files": {
+    "cache_assurance.py": "6ff6d683a4e7fd0432a04a77ada090c6ea369f6941f609f7425599b8efdf7ef6",
+    "fit_worker.py": "35486e64e2f1d6c2727b0bd9b90fbdaa3ed8500f32587e0eef21827dd3fa59fe",
+    "prepare_pilot.py": "97f3e4a2be05de54310e09cf70cb2fb17cc261ed9ca0afd1af737658801037c0",
+    "prepare_sequence.py": "85a387861bf14a6f25d75cefe938c60d73aa08e16a1e1fca22536f908630e822",
+    "sequence_analysis.py": "60357d1be508d4cba058a30139fb25eb98d4a53619849cc5da27b7a80afcd965",
+    "sequence_controller.py": "93906d0b7ab6bfbef93c99e034d9f20fbff84260bb8837dc87f87269ad345590",
+    "verify_engine.py": "353b10f91e1ada3363edafae6fcafc788e865509cd952100b5a802309d91cc17",
+    "vqc_engine.py": "259cbb4be25f0c01fb0b5ba9520f70924a11d604b9d6c292902d475b62a0270e",
+    "workbook_support/workbook_writer.mjs": "3013b9099abead9d7be092b2afbeba5bae314dda0f86f2443fb02b6a6291fa83"
+  },
+  "frozen_before_production": true,
+  "previous_source_lock_path": "records/k17_three_workers/source_lock.json",
+  "previous_source_lock_sha256": "f5a4636b3a8c3216be9beecd6f560e201f003513cb1611cb7e07ce53a86f35c7",
+  "scheduler_revision": 6
+}

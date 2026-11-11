@@ -1,0 +1,30 @@
+{
+  "all_valid_panels": true,
+  "both_stages_complete": true,
+  "budget_selection": "deferred_to_later_user_review",
+  "budgets": [
+    100,
+    200
+  ],
+  "completed": 96,
+  "configurations": 16,
+  "expected_outcomes": 96,
+  "failed": 0,
+  "failures_and_interruptions_accounted_for": true,
+  "initial_vectors_identical_across_budgets": true,
+  "max_table_metric_recomputation_error": 1.1102230246251565e-16,
+  "original_engine_unchanged": true,
+  "original_test_inspected": false,
+  "pending": 0,
+  "seed_pairs": 3,
+  "source_files_match_production_freeze": true,
+  "split_differs_from_first_pilot": true,
+  "split_seed": 20261109,
+  "train_rows": 364,
+  "training_only_fit_access_verified": true,
+  "validation_rows": 91,
+  "verified": true,
+  "verified_at": "2026-11-08T02:58:01+00:00",
+  "workbook_all_sheets_match_tables": true,
+  "workbook_sha256": "45a0766136c6f7c96f92aef40e78b6c1ffd611fd1feca9b130d234efec031700"
+}

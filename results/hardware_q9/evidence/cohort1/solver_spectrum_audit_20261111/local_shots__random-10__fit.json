@@ -1,0 +1,26 @@
+{
+  "fit": {
+    "all_warnings": [],
+    "convergence_warnings": [],
+    "fit_status": 0,
+    "fit_wall_seconds": 0.0010817000002134591,
+    "n_iter": [
+      33
+    ]
+  },
+  "permutation": "random-10",
+  "summary": {
+    "convergence_warning_count": 0,
+    "fit_status": 0,
+    "fit_wall_seconds": 0.0010817000002134591,
+    "held_out_correct": 24,
+    "held_out_prediction_changes_vs_identity": 0,
+    "maximum_absolute_held_out_margin_change": 0.1255966942265765,
+    "maximum_absolute_malignant_probability_change": 0.02295089557149632,
+    "maximum_absolute_training_margin_change": 0.09635713085441244,
+    "method": "local_shots",
+    "n_iter": 33,
+    "permutation_id": "random-10",
+    "training_prediction_changes_vs_identity": 0
+  }
+}

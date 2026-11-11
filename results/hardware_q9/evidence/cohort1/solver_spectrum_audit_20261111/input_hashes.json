@@ -1,0 +1,17 @@
+{
+  "hardware\\kernel_spectrum.json": "7ccf80dfadcdc2cce3836ff7ba6b1f254b7f89dfb2a0742b74ba2b40f150cafe",
+  "hardware\\kernels_predictions.npz": "9c90de5463273ef4e8f5374daf525328252ff3347f0f4b143a7c7cb6c86d47df",
+  "hardware\\metrics.json": "81157653f147b265734918265e79cf1c961f73c86572cce4f3c22548613b5ec9",
+  "hardware\\predictions.csv": "c9ede13be8b207955be6e4b01dedac259734f56ea445c9f7fe14ea01ea786f9e",
+  "hardware\\svc.joblib": "b7b5dbd0ccfbe353d086951ad5fcafdba66b7d3c0718899ce8440e1bcc753923",
+  "local_exact\\kernel_spectrum.json": "e0f95830b5d50452291b03e639db468bc12e0420ea7508b330a4965488ae015b",
+  "local_exact\\kernels_predictions.npz": "86ee12edc4906275e8cb7484bb6c38ff7924c9b46dfbcdd3d0109e3e2a6d3db1",
+  "local_exact\\metrics.json": "81157653f147b265734918265e79cf1c961f73c86572cce4f3c22548613b5ec9",
+  "local_exact\\predictions.csv": "182781797fa37593eb5889a6334d09bc8fa36e98f4b23103dd9dee766b925700",
+  "local_exact\\svc.joblib": "c3cbbd316129aebf7f1c14da038361e5a97e8fc1fa09027fdea2a918e322f4a6",
+  "local_shots\\kernel_spectrum.json": "9826f80e69f567ee3efed09e8b8ac1896c48ab7c4e3f00c9e32b0ccbf1632510",
+  "local_shots\\kernels_predictions.npz": "543163cf31ee06ec04a6501c5783d07fce723e45f4482dd419c872a6d5577693",
+  "local_shots\\metrics.json": "abbe5831c784ac0ff0d864a36f8a957792c7f0016b7839284da68045c16b9914",
+  "local_shots\\predictions.csv": "69b84eaebb07954249952df52d127f6eae774cba959d271d9eceb3ac311ff326",
+  "local_shots\\svc.joblib": "8ef2452b252703334e8bddde0a3eef55d0682fddcdd39edacd0c03b1ef477c27"
+}

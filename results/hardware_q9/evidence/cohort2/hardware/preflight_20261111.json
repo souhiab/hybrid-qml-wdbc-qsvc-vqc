@@ -1,0 +1,17 @@
+{
+  "available_account_seconds": 416.0,
+  "checked": "2026-11-11T09:31:43.394452+00:00",
+  "cohort2_planned_allowances_seconds": 274,
+  "cumulative_actual_plus_outstanding_allowances_seconds": 449.0,
+  "isa_verification": {
+    "maximum_absolute_overlap_error": 3.4416913763379853e-15,
+    "pairs_checked": 16,
+    "zero_two_qubit_gates": true
+  },
+  "no_other_pending_instance_jobs": true,
+  "outstanding_allowances_seconds": 265,
+  "prior_experiment_seconds": 180.0,
+  "reserve_seconds": 120,
+  "scope": "One additional disjoint cohort only; stop after completion.",
+  "source_identity": "5736137a986305d1d55d5745d00d2f1efd8d9eae5b60b8275817877977266ffa"
+}

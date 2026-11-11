@@ -1,0 +1,36 @@
+item,value
+ansatz,"RealAmplitudes, reverse_linear, final rotation enabled"
+bootstrap,"10000 ordinary paired patient bootstrap draws from the 91 validation patients, identical draw indices across every budget/configuration/seed; fixed fitted-model panel; percentile 2.5/97.5"
+bootstrap_conditions,"Conditional on split 2, these fitted models, the same 16 configurations and three seed pairs. Overlap with split 1 does not create independent patients. No pooling of overlapping splits."
+bootstrap_replicates,10000
+bootstrap_seed,20261109
+budgets,"[100, 200]"
+comparison_timing,Automatically produce descriptive summaries after both stages; interpretation and budget selection deferred to a later user prompt.
+configurations,16
+cpu_benchmarks,Reuse validated 3 workers x 1 thread; current RAM/cores check may only reduce concurrency. No additional tuning fits.
+cpu_only,True
+decision,argmax from one final validation probability array; ties select malignant column 0
+design,Second internal-split confirmation of the same balanced 16-configuration pilot; not a full factorial grid
+exact_optimizer_resume_supported,False
+fits,96
+incomplete_rule,No complete-panel budget mean or bootstrap comparison when any expected fit is missing/failed; report counts and unavailable summaries; never silently average a successful subset
+initialization,"Fresh seeded NumPy generator, uniform [0,1); identical vector for matching configuration/seed across all budgets"
+internal_split_seed,20261109
+loss,"cross_entropy, installed log2 with clipping at 1e-10"
+margin_status,Proposed 0.5-percentage-point relevance margin recorded for later user review; no automatic final budget-selection decision
+numerical_implementation,vqc-k04-exact-cached-v2
+objective_limit,COBYLA maxiter is maximum objective evaluations in installed SciPy; record actual nfev and raw stopping status
+original_test_partition,"Not copied, inspected or scored; only original 455 training cases used"
+practical_margin_pp,0.5
+precision,"complex128 states, float64 probabilities"
+primary_comparisons,"[[200, 100]]"
+primary_metric,Equal mean of validation accuracies across the fixed 16 configurations and three seeds (48 fits)
+qubits,4
+readout,"basis-state integer modulo 2; source probability order [0,1]; malignant=0"
+restart_rule,New independent fit from original initialization and seeds for each budget and interrupted attempt; never use final angles as optimizer state
+secondary_comparison,
+seed_pairs,"[[1, 101, 1101], [2, 211, 1211], [3, 307, 1307]]"
+shots,1024
+stage_order,"[100, 200]"
+technical_retry_rule,"One retry maximum for OSError, MemoryError, TimeoutError or worker-process failure; retain all attempts. No retry for poor scores, budget exhaustion or numerical/scientific errors."
+warm_start,False

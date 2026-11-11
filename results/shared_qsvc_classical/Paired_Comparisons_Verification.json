@@ -1,0 +1,7 @@
+{
+  "authoritative_workbook": "WDBC_QSVC_Classical_Shared_Folds_Master.xlsx",
+  "sheet": "Paired_Comparisons",
+  "data_rows": 217,
+  "numeric_precision": "original XML numeric strings retained",
+  "matches_workbook": true
+}

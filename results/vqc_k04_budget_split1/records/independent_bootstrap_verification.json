@@ -1,0 +1,12 @@
+{
+  "all_saved_indices_reproduced": true,
+  "bootstrap_seed": 20261108,
+  "changed_200_300_probability_arrays": 3,
+  "degenerate_interval_explanation": "The 200 and 300 budgets give identical saved class predictions for this panel; a zero-width conditional accuracy interval does not establish general equivalence.",
+  "fixed_configuration_seed_panel": 48,
+  "identical_200_300_validation_prediction_arrays": 48,
+  "maximum_independent_recalculation_error": 2.220446049250313e-16,
+  "patient_resamples": 10000,
+  "validation_patients": 91,
+  "verified": true
+}

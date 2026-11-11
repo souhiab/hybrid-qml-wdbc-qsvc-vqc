@@ -1,0 +1,21 @@
+item,value
+budget_exhausted,165
+complete_configurations,64
+completed,192
+converged,27
+expected_configurations,64
+expected_fits,192
+failed,0
+failure_rate,0.0
+pending,0
+runner_pid,23592
+updated,2026-11-08T01:02:18+00:00
+execution_state,completed
+runner_active,False
+mean_accuracy_primary_ranking,Complete three-seed configurations; retain all exact ties
+best_mean_accuracy,0.935672514619883
+best_accuracy_tie_count,1
+interrupted_attempts_preserved,1
+technical_failure_retries,0
+recovered_workbook_sync_errors,1
+interpretation,Exploratory fixed split; three seeds assess training variability on the same 114 test patients

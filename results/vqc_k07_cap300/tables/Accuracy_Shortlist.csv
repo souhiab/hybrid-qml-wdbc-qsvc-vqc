@@ -1,0 +1,2 @@
+configuration_id,complete,valid_seed_outcomes,failed_seed_outcomes,pending_seed_outcomes,mean_accuracy,mean_roc_auc,mean_sensitivity,mean_specificity,mean_precision,mean_f1,sample_std_accuracy,sum_correct_count
+full-grid-k07-minmax-lr-z-f2-a2,True,3,0,0,0.9298245614035089,0.9859457671957671,0.8174603174603176,0.9953703703703703,0.9901960784313726,0.8955342902711324,0.015193428136569147,318

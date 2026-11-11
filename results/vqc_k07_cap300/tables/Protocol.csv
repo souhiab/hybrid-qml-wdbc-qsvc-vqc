@@ -1,0 +1,32 @@
+item,value
+ansatz,"RealAmplitudes reverse_linear, final rotation layer retained"
+ansatz_reps,"[1, 2]"
+budget,300
+budget_exception,"{""cap_prepared"": 300, ""convergence_fraction"": 0.8541666666666666, ""exception_required"": true, ""pilot_budget_exhausted"": 7, ""pilot_converged"": 41, ""pilot_total"": 48, ""predeclared_target"": 0.9, ""reason"": ""Additional optimizer allowance, not a demonstrated meaningful accuracy improvement"", ""status"": ""User-requested 300-cap preparation; retain explicit exception for final scientific budget review alongside larger-width pilots"", ""target_met"": false}"
+budget_exhaustion,Retain valid budget-limited fits and poor outcomes; record actual nfev and optimizer termination; do not label every completed fit converged
+budget_unit,maximum objective evaluations
+configurations,64
+cpu,"CPU only; start with conservative live RAM check and at most three workers, one thread each; execution resources may be reduced without changing scientific settings."
+decision,"argmax of class probabilities [0,1]; exact ties malignant 0"
+evaluation,One final test probability evaluation per fit; predictions and all clinical metrics derived from that saved array
+evidence_type,full-grid
+execution_authorization,"PREPARE ONLY. No launch, scheduling or connection to the current pilot controller. launch.ps1 requires a future deliberate invocation."
+expected_fits,192
+feature_map_reps,"[1, 2]"
+feature_maps,Z without entanglement argument; ZZ linear/full/circular (verified Pauli equivalence)
+fit_access,Scaler and supervised RFE fit only original 455 raw training cases and training labels. Test transformations attached after fitting. No pilot preprocessing or pilot models reused.
+interruption,No exact COBYLA restoration; preserve attempts and restart only incomplete fits from original saved initialization and seeds; fresh model/optimizer/sampler
+loss,"cross_entropy, installed base-2 and clipping 1e-10 semantics"
+optimizer,COBYLA
+positive_source_class,0
+precision,complex128 and float64
+qubits,7
+ranking,Mean accuracy over exactly three valid seeds; retain every exact accuracy tie by summed correct counts; incomplete configuration summaries unavailable
+rhobeg,1.0
+seed_pairs,"[[101, 1101], [211, 1211], [307, 1307]]"
+selection_history,Exploratory fixed original test split with historical test-selection history; not independent validation
+shots,1024
+technical_retry,One retry for technical failures only; preserve all failed attempts
+test_rows,114
+tol,
+training_rows,455

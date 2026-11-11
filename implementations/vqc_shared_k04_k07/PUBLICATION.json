@@ -1,0 +1,19 @@
+{
+  "original_folder": "wdbc_vqc_shared_folds_4candidates_20261108",
+  "role": "Verified execution source snapshot",
+  "source_sha256": {
+    "candidates.json": "14837dffd7edc02b64ebadde764622839d7e4afee062e4806c8cf3859a2d3714",
+    "fit_worker.py": "35486e64e2f1d6c2727b0bd9b90fbdaa3ed8500f32587e0eef21827dd3fa59fe",
+    "folds\\outer_inner_assignments.json": "ba484635cbb8dedcdfc2d6ab50c551e2ba6fab6d062b7a059d8600ad20fd2d8c",
+    "manifest.json": "83e145fc75bd31e6d26c711424c5374383a190b50252469c72b654747d6c37f7",
+    "prepare_pilot.py": "97f3e4a2be05de54310e09cf70cb2fb17cc261ed9ca0afd1af737658801037c0",
+    "protocol.json": "24762c2b6df1d35c0bb620d85d81e670b70591c894008872fc84336850b3f84c",
+    "records\\environment.json": "9ff87e1f24a462e0919df7122a0e22c813f86773c408640c5a1429871b13c5d3",
+    "records\\package_lock.json": "d1d5d74630faa6bca9bf515c3acda930d7d80e1b75ee1cd2ba09c48a895f0353",
+    "shared_controller.py": "f13052e031ea891204f79be50c0ac03cb23b61a57583282a6fea89111fd377ec",
+    "verify_package.py": "5e83d3b227d68c450b23001d630d77b362f01184dfe02e099d1ebaefb330e1bb",
+    "vqc_engine.py": "259cbb4be25f0c01fb0b5ba9520f70924a11d604b9d6c292902d475b62a0270e",
+    "writer_support.py": "4d4be027eb797c9fcd64d4ab44196aa6040f2e42722e70a983a1594d890b6eeb"
+  },
+  "training_portability": "Original controllers and immutable source locks retain machine-specific provenance. Do not blindly launch them after relocation; use portable tools/verify_results.py and documented fresh-workspace preparation."
+}

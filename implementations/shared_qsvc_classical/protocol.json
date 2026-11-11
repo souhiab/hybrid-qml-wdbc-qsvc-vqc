@@ -1,0 +1,98 @@
+{
+  "aggregation": "Report arithmetic fold means separately from per-repeat pooled OOF metrics over exactly 569 patients; report mean and sample SD across three repeat summaries. A pooled OOF AUC mixes separately fitted fold score scales and is not the fold-mean AUC. Never pool 1707 repeated records as independent patients.",
+  "calibration_compute_budget": "QSVC probability=True retains installed training-only libsvm probability calibration; this adds internal classifier work but no extra outer evaluations or quantum-kernel production per calibration fold.",
+  "calibration_seed_rule": "int.from_bytes(SHA256(UTF8(20261108|evaluation_id|libsvm))[:4],big) mod (2**31-1); RFE randomness remains historical 42 for Q/matched, 20261009 for strong.",
+  "classical_decision": "LR malignant probability >=0.5; RBF malignant-oriented decision score >=0; equality malignant. No outer-label threshold tuning.",
+  "dataset": {
+    "benign_count": 357,
+    "benign_label": 1,
+    "feature_names_sha256": "3d17e44c19d3b0fe941f5e416b5bc696535890ba4d4afa4cd065219c33c7e366",
+    "loader": "sklearn.datasets.load_breast_cancer",
+    "malignant_count": 212,
+    "malignant_label": 0,
+    "n_features": 30,
+    "n_samples": 569,
+    "x_sha256": "eb208df8ce11610b70c234582b5d57bbea37003b6bb047ca94b032a774097705",
+    "y_sha256": "911ff37282c92b6c314c7f5c2f489f2197b235d937c57a42ffcab312fd543253"
+  },
+  "evaluation": "Internal repeated evaluation on WDBC: shortlist informed by exploration of the same dataset; no independent validation or corrected maxima claims",
+  "fit_scope": "Raw outer-training cases only; each inner fold refits all learned preprocessing on its own training cases and training labels. Outer held-out rows never enter fitting, tuning or calibration.",
+  "inner_folds": 3,
+  "inner_seed_rule": "outer_seed + zero-based outer_fold_index + 1000",
+  "matched_inner_model_fits": 2025,
+  "matched_outer_evaluations": 75,
+  "matched_procedures": 5,
+  "metrics": [
+    "roc_auc",
+    "average_precision",
+    "accuracy",
+    "sensitivity",
+    "specificity",
+    "precision",
+    "f1",
+    "TP",
+    "FN",
+    "FP",
+    "TN"
+  ],
+  "optimizations": [
+    "Verified vectorized exact Z/ZZ simulator extracted verbatim",
+    "Symmetric blocked analytic train kernel; stream held-out rows after QSVC fit",
+    "Fold/settings/content-bound preprocessing and kernel reuse",
+    "No duplicate verified evaluations; interruption-safe attempts",
+    "Single asynchronous Excel writer with bounded queue",
+    "Classical preprocessing reused across classifier hyperparameters within each inner training fold"
+  ],
+  "outer_partitions": 15,
+  "outer_seeds": [
+    20261009,
+    20261010,
+    20261011
+  ],
+  "paired_comparisons": "All Q1-Q10 versus LR and RBF plus each Q versus its prespecified matched M control. Align exact patient IDs, repeats/folds and truth labels.",
+  "positive_class": "malignant, original source label 0",
+  "preparation_state": "READY_NOT_STARTED",
+  "preprocessing_reuse": "Only when ordered training/transform IDs, X/y hashes, all estimator/scaler/selector settings and provenance match; Q and matched controls share qsvc-grid preprocessing, not strong-procedure RF500 preprocessing. No fixed-split cache/model reuse.",
+  "probability_calibration": "QSVC probability=True: installed libsvm training-only internal calibration; seed frozen before fit. No held-out calibration or thresholds. Historical uncontrolled_None cases explicitly recorded; new repeated evaluation intentionally controls all calibration randomness.",
+  "qs_candidates": 10,
+  "qs_outer_fits": 150,
+  "qsvc_decision": "Preserve estimator.predict and installed libsvm voting/tie semantics; ranking metrics use probability column identified by classes_ == 0. Do not replace decisions by a calibrated probability threshold.",
+  "qsvc_native_zero_margin_tie": "Installed binary libsvm returns source class 1 at exact zero margin (synthetic probe); preserve estimator.predict. This differs from the explicit malignant tie used by classical default score rules.",
+  "resources": {
+    "active_vqc_policy": "Future training refuses concurrent execution with the active VQC controller by default. No training launched during preparation.",
+    "cache_limit_bytes": 2147483648,
+    "default_workers": 1,
+    "heldout_statevector_batch": 4,
+    "kernel_block_size": 64,
+    "kernel_precision": "float64",
+    "max_workers": 2,
+    "statevector_precision": "complex128",
+    "system_ram_reserve_bytes": 2147483648,
+    "threads_per_worker": 2
+  },
+  "strong_inner_model_fits_if_no_reuse": 21600,
+  "strong_outer_evaluations": 30,
+  "training_authorization": "PREPARATION ONLY in this task. Explicit future CLI execute command required; importing or --help never fits.",
+  "uncertainty": "Descriptive paired patient bootstrap: 10000 draws, fixed seed 20261108; same resampled patient IDs across models and all repeats, panel/folds fixed; recompute each repeat pooled OOF metrics and average repeat differences. Excludes training-resampling, feature/candidate selection, and full dependence induced by overlapping training folds. No naive independent-samples 15-fold tests; no formal multiple-comparison or equivalence claims.",
+  "undefined_ratio": 0.0,
+  "unresolved_settings": [],
+  "vqc": {
+    "candidates": [],
+    "integration": "Register a later frozen VQC shortlist with these same saved folds and result schema; no QSVC-to-VQC winner assumption; registration does not train.",
+    "seed_pairs": [
+      [
+        101,
+        1101
+      ],
+      [
+        211,
+        1211
+      ],
+      [
+        307,
+        1307
+      ]
+    ],
+    "shortlist_state": "PENDING"
+  }
+}

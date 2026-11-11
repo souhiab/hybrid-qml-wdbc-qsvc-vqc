@@ -1,0 +1,29 @@
+{
+  "original_folder": "wdbc_qsvc_classical_repeated_ready_20261108",
+  "role": "Verified execution source snapshot",
+  "source_sha256": {
+    "analysis.py": "2431233bc2760dfc519887ee45c1b5cce482ee97ac1d432070260d9dd34bd274",
+    "candidates.json": "155e5047a112ef2af5d6998be0a0efa5a78b569d5c46dc37e2301feb1c3d993a",
+    "cli.py": "3ee23dd2b7bfcef2a9ef417cca533a4dfb92d9b6ed8bfbadd1d00fa62024b357",
+    "common.py": "74195300420a545a2dbc3d2eda8a5dbaa03f3135841222a22a752cf5cf12a543",
+    "comparators.json": "e238a14db81d9417c95df73fe9fd7b9c4bff33344c76a20db130a570745f364d",
+    "controller.py": "27081535f282d1870a9a4ceaa6e4182c56d6e6866816c8f3d45f5156136fe14b",
+    "data\\wdbc_arrays.npz": "e422cfb19e9b2860a1f752cb174940892d07dde5947c7a42a5691c54699922e0",
+    "execution.py": "92a4e824419b8ab99061d7dca94047cce67b8a329d61508238095311c1165881",
+    "folds\\outer_inner_assignments.json": "ba484635cbb8dedcdfc2d6ab50c551e2ba6fab6d062b7a059d8600ad20fd2d8c",
+    "learning.py": "5a510e61a228a8e1faf100939f08556b316c8750d848c5b7c547bb7395006600",
+    "manifests\\preprocessing_settings.json": "8fade60e09075517d2d33ef97d6f6da2c4247ac5b3e8b7247ea673f7b756d053",
+    "manifests\\vqc_shared_fold_plan.json": "ea9e6b5a5eb12f34473eaac755c0e22f0d78bf5137b87399f6e484f0752684ca",
+    "manifests\\vqc_shortlist_k11_extension_registered.json": "63aaf827964c43037d9a7188ffb36c3f1d21efded898bd7457ea207300fe64ec",
+    "manifests\\vqc_shortlist_registered.json": "714bf1c7ae5321c29c62d5c1a1e55ddd6b3e9d62477fd25dda2cbbcef5046150",
+    "prepare.py": "1498dc07eee7a9d8a8bcac2f2a0992614cf94395ec51a76640fb213062e40b4f",
+    "protocol.json": "2c334599b7ce0cc5d2dd2653437fd02757ea1cd2d0861b190598eaf071475872",
+    "quantum_engine.py": "eae9d159f0889640e16d695104ce90d485da35bc281a00c09dcc0b616d7b921f",
+    "records\\environment.json": "8ed989a44403d75e06fb6f1192a43d1b2b57e22d355fb9dd3bf12e8a168818c8",
+    "reuse_audit.py": "21de708d2964ec38aeb6d1ef50caf57e2fea7637b180658657cac6b32a7c6494",
+    "synthetic_tests.py": "1313ec4e2e549e8c8b8370f3dc39348fdde295fccae26700704a8b6ddb95a37f",
+    "verify.py": "cc30d49fb23c9925a703f6620f6e6fae8054e378089a65c911de454ac5a7ef75",
+    "verify_candidate_evidence.py": "78d0d1990ece96eff12d29d706596dda38a1c565409ccd24e8e62e2dac69b7f0"
+  },
+  "training_portability": "Original controllers and immutable source locks retain machine-specific provenance. Do not blindly launch them after relocation; use portable tools/verify_results.py and documented fresh-workspace preparation."
+}

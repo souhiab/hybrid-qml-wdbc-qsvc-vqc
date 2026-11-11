@@ -1,0 +1,219 @@
+{
+  "frozen": true,
+  "fold_manifest_sha256": "ba484635cbb8dedcdfc2d6ab50c551e2ba6fab6d062b7a059d8600ad20fd2d8c",
+  "seed_pairs": [
+    [
+      101,
+      1101
+    ],
+    [
+      211,
+      1211
+    ],
+    [
+      307,
+      1307
+    ]
+  ],
+  "candidates": [
+    {
+      "candidate_id": "V4-A",
+      "configuration_id": "full-grid-k04-minmax-rf-z-f2-a2",
+      "qubits": 4,
+      "scaler": "MinMaxScaler",
+      "selector": "Random Forest",
+      "RFE": "RandomForestClassifier",
+      "feature_map": "ZFeatureMap",
+      "feature_map_reps": 2,
+      "ansatz_reps": 2,
+      "optimizer_budget": 200,
+      "objective_evaluation_cap": 200,
+      "trainable_parameters": 12,
+      "source_manifest": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_vqc_execution_20261108\\studies\\full-grid-k04\\manifest.json",
+      "source_manifest_sha256": "0f95a852f09643c324272a9c25a95df551bbe6252f6a7063e2684c3f3736c47e",
+      "scaler_settings": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      },
+      "rfe_settings": {
+        "n_features_to_select": 4,
+        "step": 1
+      },
+      "estimator_settings": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "p": 1
+    },
+    {
+      "candidate_id": "V4-B",
+      "configuration_id": "full-grid-k04-minmax-rf-z-f2-a1",
+      "qubits": 4,
+      "scaler": "MinMaxScaler",
+      "selector": "Random Forest",
+      "RFE": "RandomForestClassifier",
+      "feature_map": "ZFeatureMap",
+      "feature_map_reps": 2,
+      "ansatz_reps": 1,
+      "optimizer_budget": 200,
+      "objective_evaluation_cap": 200,
+      "trainable_parameters": 8,
+      "source_manifest": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_vqc_execution_20261108\\studies\\full-grid-k04\\manifest.json",
+      "source_manifest_sha256": "0f95a852f09643c324272a9c25a95df551bbe6252f6a7063e2684c3f3736c47e",
+      "scaler_settings": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      },
+      "rfe_settings": {
+        "n_features_to_select": 4,
+        "step": 1
+      },
+      "estimator_settings": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "p": 1
+    },
+    {
+      "candidate_id": "V7-A",
+      "configuration_id": "full-grid-k07-minmax-lr-z-f2-a2",
+      "qubits": 7,
+      "scaler": "MinMaxScaler",
+      "selector": "Logistic Regression",
+      "RFE": "LogisticRegression",
+      "feature_map": "ZFeatureMap",
+      "feature_map_reps": 2,
+      "ansatz_reps": 2,
+      "optimizer_budget": 300,
+      "objective_evaluation_cap": 300,
+      "trainable_parameters": 21,
+      "source_manifest": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_vqc_k07_grid_b300_ready_20261108\\manifest.json",
+      "source_manifest_sha256": "cd09bfddd6be464f2aa6a1b05d52fc396f2f866fcef55c025808ee111fe067fe",
+      "scaler_settings": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      },
+      "rfe_settings": {
+        "n_features_to_select": 7,
+        "step": 1
+      },
+      "estimator_settings": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 5000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l1",
+        "random_state": 42,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "p": 0
+    },
+    {
+      "candidate_id": "V7-B",
+      "configuration_id": "full-grid-k07-minmax-rf-z-f2-a2",
+      "qubits": 7,
+      "scaler": "MinMaxScaler",
+      "selector": "Random Forest",
+      "RFE": "RandomForestClassifier",
+      "feature_map": "ZFeatureMap",
+      "feature_map_reps": 2,
+      "ansatz_reps": 2,
+      "optimizer_budget": 300,
+      "objective_evaluation_cap": 300,
+      "trainable_parameters": 21,
+      "source_manifest": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_vqc_k07_grid_b300_ready_20261108\\manifest.json",
+      "source_manifest_sha256": "cd09bfddd6be464f2aa6a1b05d52fc396f2f866fcef55c025808ee111fe067fe",
+      "scaler_settings": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      },
+      "rfe_settings": {
+        "n_features_to_select": 7,
+        "step": 1
+      },
+      "estimator_settings": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "p": 1
+    }
+  ],
+  "ranking": "Candidates frozen by user after three-seed mean full-grid accuracy; fewer trainable parameters resolve the four-qubit second-place accuracy tie. No best-seed selection.",
+  "execution_package": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_vqc_shared_folds_4candidates_20261108",
+  "registration_type": "User-authorized four-candidate frozen shortlist; original historical PENDING record preserved"
+}

@@ -1,0 +1,9 @@
+{
+  "actual_service_qpu_seconds": 0,
+  "completed": "2026-11-11T00:04:15.312088+00:00",
+  "failure_type": null,
+  "job_id": "dbpr1t5t7fqc7389sasg",
+  "job_key": "job-000",
+  "result_wait_wall_seconds": 12.438542200005031,
+  "status": "DONE"
+}

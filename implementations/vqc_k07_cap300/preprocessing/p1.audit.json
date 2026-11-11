@@ -1,0 +1,67 @@
+{
+  "X_train_sha256": "51d7b717316d1d70ad7e588eaaeb72a0b2f2380d0b8225957d779dd39ea4eb06",
+  "X_validation_sha256": "51d93d8c50a1730cdd684bb771ee01616e85c89d3f0b5227fa5242569e2c16d6",
+  "cache_sha256": "7e83205b3e52f1592d28d2c04f779d73d4435940faccf11e87c8fe1e44db9f59",
+  "estimator_settings": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "fit_rows": 455,
+  "p": 1,
+  "pilot_preprocessing_reused": false,
+  "qubits": 7,
+  "rfe_estimator": "Random Forest",
+  "rfe_fit_index_sha256": "3dee11e9b073845d6e982d63195a5f6653843070e2c291fdb46d9a352bf1acc1",
+  "rfe_fit_labels_sha256": "1b1ca43483206175b70bbea9f5e5d28626f2aa6f324fcdc96531887d039cea50",
+  "rfe_settings": {
+    "n_features_to_select": 7,
+    "step": 1
+  },
+  "scaler": "MinMaxScaler",
+  "scaler_fit_index_sha256": "3dee11e9b073845d6e982d63195a5f6653843070e2c291fdb46d9a352bf1acc1",
+  "scaler_settings": {
+    "clip": false,
+    "copy": true,
+    "feature_range": [
+      0,
+      1
+    ]
+  },
+  "selected_feature_indices": [
+    2,
+    3,
+    7,
+    20,
+    22,
+    23,
+    27
+  ],
+  "selected_feature_names": [
+    "mean perimeter",
+    "mean area",
+    "mean concave points",
+    "worst radius",
+    "worst perimeter",
+    "worst area",
+    "worst concave points"
+  ],
+  "test_in_fit": false,
+  "test_labels_in_fit": false
+}

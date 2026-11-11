@@ -1,0 +1,103 @@
+{
+  "budget": {
+    "absolute_cap_seconds": 600,
+    "estimate_safety_factor": 1.5,
+    "extra_job_margin_seconds": 2,
+    "minimum_job_allowance_seconds": 5,
+    "planned_cap_seconds": 480,
+    "require_known_usage": true,
+    "safety_reserve_seconds": 120,
+    "subjob_overhead_seconds": 2
+  },
+  "classical_calibration_note": "Archived Q9 random_state=None was uncontrolled; this new feasibility experiment freezes calibration seed20261110. No threshold optimization.",
+  "cohort": {
+    "selection_seed": 20261110,
+    "size": 72,
+    "split_seed": 20261110,
+    "test": 24,
+    "train": 48
+  },
+  "configuration": "Q9-budgeted-feasibility",
+  "encoder": {
+    "alpha": 2.0,
+    "constructor": "ZFeatureMap",
+    "data_map": "Qiskit default self_product",
+    "entanglement_argument": null,
+    "extra_input_rescaling": null,
+    "qubits": 4,
+    "reps": 1
+  },
+  "hardware": {
+    "approximation_degree": 1.0,
+    "backend": "ibm_fez",
+    "chunk_pairs": 256,
+    "optimization_level": 1,
+    "pilot_pairs": 32,
+    "plan_required": "open",
+    "transpiler_seed": 20261110
+  },
+  "hardware_submission_enabled_by_default": false,
+  "interpretation": "Matched hardware feasibility on a new small fixed cohort; not an identical rerun or independent validation of the historical model search.",
+  "kernel": {
+    "center": false,
+    "diagonal_normalization": false,
+    "psd_repair": false,
+    "symmetry_reuse": true,
+    "training_diagonal": 1.0
+  },
+  "measurement": {
+    "adaptive": false,
+    "dynamical_decoupling": false,
+    "init_qubits": "runtime default",
+    "m3": false,
+    "register": "meas",
+    "rep_delay": "backend default",
+    "shots": 256,
+    "twirling": false
+  },
+  "metrics": {
+    "auc_primary": "probability column classes_==0",
+    "positive_source_label": 0,
+    "prediction": "native SVC.predict; binary zero-margin tie is benign1",
+    "threshold_tuning": false
+  },
+  "preprocessing": {
+    "clip": false,
+    "estimator": {
+      "C": 1.0,
+      "class_weight": null,
+      "fit_intercept": true,
+      "max_iter": 5000,
+      "penalty": "l1",
+      "random_state": 42,
+      "solver": "saga",
+      "tol": 0.0001
+    },
+    "feature_range": [
+      0,
+      1
+    ],
+    "k": 4,
+    "rfe_step": 1,
+    "scaler": "MinMaxScaler"
+  },
+  "schema": "wdbc-budgeted-kernel-v1",
+  "simulation": {
+    "kernel_dtype": "float64",
+    "seed": 20261110,
+    "statevector_dtype": "complex128"
+  },
+  "svc": {
+    "C": 1.0,
+    "break_ties": false,
+    "cache_size": 200,
+    "class_weight": null,
+    "decision_function_shape": "ovr",
+    "kernel": "precomputed",
+    "max_iter": -1,
+    "probability": true,
+    "random_state": 20261110,
+    "shrinking": true,
+    "tol": 0.001
+  }
+}

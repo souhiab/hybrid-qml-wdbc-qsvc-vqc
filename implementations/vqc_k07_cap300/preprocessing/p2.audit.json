@@ -1,0 +1,60 @@
+{
+  "X_train_sha256": "7714fdf28ac36344f345ee5f35ae75b0d39cd1a93bb3244573b1fc28b7e2f3e9",
+  "X_validation_sha256": "cb2af56f9948944069b95afb7c957ca4fbcec15817419ed332bb9bd16adc35e2",
+  "cache_sha256": "beea0add02d668d1c0d41fb873e55bdaf85f1a9868c3f67c5fd488bb0053af53",
+  "estimator_settings": {
+    "C": 1.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 5000,
+    "multi_class": "deprecated",
+    "n_jobs": null,
+    "penalty": "l1",
+    "random_state": 42,
+    "solver": "saga",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "fit_rows": 455,
+  "p": 2,
+  "pilot_preprocessing_reused": false,
+  "qubits": 7,
+  "rfe_estimator": "Logistic Regression",
+  "rfe_fit_index_sha256": "3dee11e9b073845d6e982d63195a5f6653843070e2c291fdb46d9a352bf1acc1",
+  "rfe_fit_labels_sha256": "1b1ca43483206175b70bbea9f5e5d28626f2aa6f324fcdc96531887d039cea50",
+  "rfe_settings": {
+    "n_features_to_select": 7,
+    "step": 1
+  },
+  "scaler": "StandardScaler",
+  "scaler_fit_index_sha256": "3dee11e9b073845d6e982d63195a5f6653843070e2c291fdb46d9a352bf1acc1",
+  "scaler_settings": {
+    "copy": true,
+    "with_mean": true,
+    "with_std": true
+  },
+  "selected_feature_indices": [
+    10,
+    20,
+    21,
+    23,
+    24,
+    27,
+    28
+  ],
+  "selected_feature_names": [
+    "radius error",
+    "worst radius",
+    "worst texture",
+    "worst area",
+    "worst smoothness",
+    "worst concave points",
+    "worst symmetry"
+  ],
+  "test_in_fit": false,
+  "test_labels_in_fit": false
+}

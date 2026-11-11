@@ -1,0 +1,38 @@
+{
+  "actual_qpu_seconds": 180.0,
+  "all_counts_exactly256": true,
+  "all_jobs_valid": true,
+  "historical_files_unchanged": true,
+  "job_count": 10,
+  "kernels_rebuilt_from_raw_counts": true,
+  "main_supervision_wall_seconds": 367.33323219999875,
+  "metrics": {
+    "FN": 1,
+    "FP": 0,
+    "TN": 15,
+    "TP": 8,
+    "accuracy": 0.9583333333333334,
+    "accuracy_wilson95_descriptive": [
+      0.7975819352134406,
+      0.9926065438344942
+    ],
+    "average_precision": 1.0,
+    "correct": 23,
+    "decision_score_auc": 1.0,
+    "f1": 0.9411764705882353,
+    "n": 24,
+    "precision": 1.0,
+    "roc_auc": 1.0,
+    "sensitivity": 0.8888888888888888,
+    "specificity": 1.0,
+    "uncertainty_note": "24-case feasibility uncertainty; not independent validation or uncertainty over the prior configuration selection."
+  },
+  "metrics_recomputed_from_saved_predictions": true,
+  "no_mitigation_no_psd_repair": true,
+  "original_training_test_cases_preserved": true,
+  "pair_count": 2280,
+  "remaining_account_seconds_after_execution": 420.0,
+  "shot_count": 583680,
+  "state": "COMPLETE_VERIFIED",
+  "verified": "2026-11-11T00:12:51.238333+00:00"
+}

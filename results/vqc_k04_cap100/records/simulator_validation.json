@@ -1,0 +1,575 @@
+{
+  "alias_checks": [
+    {
+      "max_state_error": 0.0,
+      "reps": 1,
+      "topology": "linear"
+    },
+    {
+      "max_state_error": 0.0,
+      "reps": 2,
+      "topology": "linear"
+    },
+    {
+      "max_state_error": 0.0,
+      "reps": 1,
+      "topology": "full"
+    },
+    {
+      "max_state_error": 0.0,
+      "reps": 2,
+      "topology": "full"
+    },
+    {
+      "max_state_error": 0.0,
+      "reps": 1,
+      "topology": "circular"
+    },
+    {
+      "max_state_error": 0.0,
+      "reps": 2,
+      "topology": "circular"
+    }
+  ],
+  "alias_max_state_error": 0.0,
+  "checks": [
+    {
+      "ansatz_reps": 1,
+      "encoder": "Z",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.02736980002373457,
+      "reference_seconds": 0.1266268000472337,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "Z",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.006988300010561943,
+      "reference_seconds": 0.11075700004585087,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "Z",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.0063725002110004425,
+      "reference_seconds": 0.10641889995895326,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "Z",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.007474499987438321,
+      "reference_seconds": 0.10046370001509786,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "Z",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.00787770003080368,
+      "reference_seconds": 0.10146440006792545,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "Z",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.007565199863165617,
+      "reference_seconds": 0.11137189995497465,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "Z",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.02411180012859404,
+      "reference_seconds": 0.10488999984227121,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "Z",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.006689299829304218,
+      "reference_seconds": 0.10343879996798933,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "Z",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.0069989999756217,
+      "reference_seconds": 0.10232600010931492,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "Z",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.008160999976098537,
+      "reference_seconds": 0.10953609994612634,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "Z",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.008284299867227674,
+      "reference_seconds": 0.12985919998027384,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "Z",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.007567900000140071,
+      "reference_seconds": 0.10623929998837411,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": ""
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.028543699998408556,
+      "reference_seconds": 0.10110810003243387,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.005723099922761321,
+      "reference_seconds": 0.1089590999763459,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.005875200033187866,
+      "reference_seconds": 0.09860719996504486,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.009543899912387133,
+      "reference_seconds": 0.12652980000711977,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.010023599956184626,
+      "reference_seconds": 0.16204000008292496,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.008344799978658557,
+      "reference_seconds": 0.15515879984013736,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.04185509984381497,
+      "reference_seconds": 0.11474990006536245,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.005581399891525507,
+      "reference_seconds": 0.11451850016601384,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.00657079997472465,
+      "reference_seconds": 0.12063420005142689,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.008445999817922711,
+      "reference_seconds": 0.12115240003913641,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.008709500078111887,
+      "reference_seconds": 0.13366429996676743,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.007745899958536029,
+      "reference_seconds": 0.12153569981455803,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "linear"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.036948699969798326,
+      "reference_seconds": 0.10826889984309673,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.006383099826052785,
+      "reference_seconds": 0.11237059999257326,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.006358300102874637,
+      "reference_seconds": 0.12302669999189675,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.008880800101906061,
+      "reference_seconds": 0.11979539995081723,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.008636200102046132,
+      "reference_seconds": 0.11503220000304282,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.010564299998804927,
+      "reference_seconds": 0.13655140018090606,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.06791510013863444,
+      "reference_seconds": 0.18890230008400977,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.0073911999352276325,
+      "reference_seconds": 0.13467900012619793,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.006127600092440844,
+      "reference_seconds": 0.12980450014583766,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.010798500152304769,
+      "reference_seconds": 0.1711814000736922,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.008256600005552173,
+      "reference_seconds": 0.1333906000945717,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.010302399983629584,
+      "reference_seconds": 0.1301585000474006,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "full"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.03479099995456636,
+      "reference_seconds": 0.14304789993911982,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.006201199954375625,
+      "reference_seconds": 0.12369500007480383,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.01081900019198656,
+      "reference_seconds": 0.12766799982637167,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.01095520006492734,
+      "reference_seconds": 0.1424223999492824,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.00813099998049438,
+      "reference_seconds": 0.1264741001650691,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 1,
+      "optimized_seconds": 0.007752300007268786,
+      "reference_seconds": 0.11981189996004105,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.053653499810025096,
+      "reference_seconds": 0.13299229997210205,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.007273399969562888,
+      "reference_seconds": 0.12161889998242259,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 1,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.005635299952700734,
+      "reference_seconds": 0.12409260007552803,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.012675199890509248,
+      "reference_seconds": 0.13851670012809336,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1101,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.0088168999645859,
+      "reference_seconds": 0.12227940000593662,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1211,
+      "topology": "circular"
+    },
+    {
+      "ansatz_reps": 2,
+      "encoder": "ZZ",
+      "feature_map_reps": 2,
+      "optimized_seconds": 0.008482699980959296,
+      "reference_seconds": 0.12445489992387593,
+      "rows": 4,
+      "sampled_probability_max_error": 0.0,
+      "sampler_seed": 1307,
+      "topology": "circular"
+    }
+  ],
+  "finite_shot_cases": 48,
+  "optimized_seconds": 0.6361737994011492,
+  "passed": true,
+  "precision": "complex128 / float64",
+  "probability_max_error": 0.0,
+  "readout": "integer basis state modulo 2",
+  "reference_seconds": 5.9422857004683465,
+  "shots": 1024,
+  "speedup": 9.340663991604199,
+  "tie_rule": "argmax, column 0 malignant wins exact ties"
+}

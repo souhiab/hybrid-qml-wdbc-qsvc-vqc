@@ -1,0 +1,980 @@
+[
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "47d02e5c5cd15508e80b0ed8c33b8e9c2113b2c4cc013f4c1977cc974a3481b1",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\runs\\k04\\fs-k04-minmax-lr-zz-circular-r4",
+    "archived_calibration_seed": "20261107",
+    "archived_configuration_id": "fs-k04-minmax-lr-zz-circular-r4",
+    "candidate_id": "Q1",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": "circular",
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k04-minmax-lr.audit.json",
+        "sha256": "2e875ebf10da2a657212e0af22b9cc4182dc4e4b79cd7a012358b4fcc9b4b08b"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]"
+    ],
+    "feature_map_reps": 4,
+    "k": 4,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 5000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l1",
+      "random_state": 42,
+      "solver": "saga",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "selected accuracy leader",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_lr",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "a12320072195f359c0936f4702f1130ea40b9a05c70efa4be9b0651a50c27f3f",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\runs\\k07\\fs-k07-minmax-rf-zz-circular-r3",
+    "archived_calibration_seed": "20261107",
+    "archived_configuration_id": "fs-k07-minmax-rf-zz-circular-r3",
+    "candidate_id": "Q2",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": "circular",
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k07-minmax-rf.audit.json",
+        "sha256": "6ede1f1292f4cc2736d36902053d37438db0e5e4c01e9e2484bfda1ae94845b0"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]",
+      "x[4]",
+      "x[5]",
+      "x[6]"
+    ],
+    "feature_map_reps": 3,
+    "k": 7,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "selected accuracy leader",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_rf",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "f5c8ab2406c216bb1e20456b47108a87561c9a8f579be307fe34432b253d8db3",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\imported_existing\\row0373\\k11",
+    "archived_calibration_seed": "uncontrolled_None",
+    "archived_configuration_id": "fs-k11-minmax-lr-z-r1",
+    "candidate_id": "Q3",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": null,
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k11-minmax-lr.audit.json",
+        "sha256": "396a5398d0e249d420f0fa6ea4d3c437ebb306270821ab04fcf505d76f79d5d1"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]",
+      "x[4]",
+      "x[5]",
+      "x[6]",
+      "x[7]",
+      "x[8]",
+      "x[9]",
+      "x[10]"
+    ],
+    "feature_map_reps": 1,
+    "k": 11,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 5000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l1",
+      "random_state": 42,
+      "solver": "saga",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "selected accuracy leader",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_lr",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "93072aebf881ff282ef0b1549861c8fefea88e51645f8bc1c8c969cf083b13eb",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\runs\\k11\\fs-k11-minmax-lr-z-r2",
+    "archived_calibration_seed": "20261107",
+    "archived_configuration_id": "fs-k11-minmax-lr-z-r2",
+    "candidate_id": "Q4",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": null,
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k11-minmax-lr.audit.json",
+        "sha256": "396a5398d0e249d420f0fa6ea4d3c437ebb306270821ab04fcf505d76f79d5d1"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]",
+      "x[4]",
+      "x[5]",
+      "x[6]",
+      "x[7]",
+      "x[8]",
+      "x[9]",
+      "x[10]"
+    ],
+    "feature_map_reps": 2,
+    "k": 11,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 5000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l1",
+      "random_state": 42,
+      "solver": "saga",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "selected accuracy leader",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_lr",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "089649996a1c87da1225bf9d1024c1deac2f6a953c469a28a313b6445c06c3f4",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\imported_existing\\row0392\\k11",
+    "archived_calibration_seed": "uncontrolled_None",
+    "archived_configuration_id": "fs-k11-minmax-lr-zz-linear-r4",
+    "candidate_id": "Q5",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": "linear",
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k11-minmax-lr.audit.json",
+        "sha256": "396a5398d0e249d420f0fa6ea4d3c437ebb306270821ab04fcf505d76f79d5d1"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]",
+      "x[4]",
+      "x[5]",
+      "x[6]",
+      "x[7]",
+      "x[8]",
+      "x[9]",
+      "x[10]"
+    ],
+    "feature_map_reps": 4,
+    "k": 11,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 5000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l1",
+      "random_state": 42,
+      "solver": "saga",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "selected accuracy leader",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_lr",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "a23012d35780634fbfacc342379594de5681a244d95cd8c46f2873cc83569acf",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\imported_existing\\row0470\\k17",
+    "archived_calibration_seed": "uncontrolled_None",
+    "archived_configuration_id": "fs-k17-minmax-lr-z-r1",
+    "candidate_id": "Q6",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": null,
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k17-minmax-lr.audit.json",
+        "sha256": "0bc64eda6a3bb8ebe0ab0dbaff5be34643ab1d7087cd503cfb5555b40eac396e"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]",
+      "x[4]",
+      "x[5]",
+      "x[6]",
+      "x[7]",
+      "x[8]",
+      "x[9]",
+      "x[10]",
+      "x[11]",
+      "x[12]",
+      "x[13]",
+      "x[14]",
+      "x[15]",
+      "x[16]"
+    ],
+    "feature_map_reps": 1,
+    "k": 17,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 5000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l1",
+      "random_state": 42,
+      "solver": "saga",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "selected accuracy leader",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_lr",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "5f2ec60687f17c053834220ae0a2b6f7e9b634959b13b8c3f3779cd0d1de4fb0",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\runs\\k17\\fs-k17-minmax-lr-z-r2",
+    "archived_calibration_seed": "20261107",
+    "archived_configuration_id": "fs-k17-minmax-lr-z-r2",
+    "candidate_id": "Q7",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": null,
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k17-minmax-lr.audit.json",
+        "sha256": "0bc64eda6a3bb8ebe0ab0dbaff5be34643ab1d7087cd503cfb5555b40eac396e"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]",
+      "x[4]",
+      "x[5]",
+      "x[6]",
+      "x[7]",
+      "x[8]",
+      "x[9]",
+      "x[10]",
+      "x[11]",
+      "x[12]",
+      "x[13]",
+      "x[14]",
+      "x[15]",
+      "x[16]"
+    ],
+    "feature_map_reps": 2,
+    "k": 17,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 5000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l1",
+      "random_state": 42,
+      "solver": "saga",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "selected accuracy leader",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_lr",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "af362f25a261b1d27798efc0a7b88a7d08a1731132e00a138072674f46dfd6d6",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\runs\\k17\\fs-k17-minmax-rf-z-r1",
+    "archived_calibration_seed": "20261107",
+    "archived_configuration_id": "fs-k17-minmax-rf-z-r1",
+    "candidate_id": "Q8",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": null,
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k17-minmax-rf.audit.json",
+        "sha256": "f9459d57e72196092093fc36f041649cca2f6c7b22b60228318481f190b86a91"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]",
+      "x[4]",
+      "x[5]",
+      "x[6]",
+      "x[7]",
+      "x[8]",
+      "x[9]",
+      "x[10]",
+      "x[11]",
+      "x[12]",
+      "x[13]",
+      "x[14]",
+      "x[15]",
+      "x[16]"
+    ],
+    "feature_map_reps": 1,
+    "k": 17,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "selected accuracy leader",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_rf",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "eb172f53ac7fac4252670819bf4298b6a158bfb94f38c694e23f4bac2b0c9edc",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\imported_existing\\row0157\\k04",
+    "archived_calibration_seed": "uncontrolled_None",
+    "archived_configuration_id": "fs-k04-minmax-lr-z-r1",
+    "candidate_id": "Q9",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": null,
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k04-minmax-lr.audit.json",
+        "sha256": "2e875ebf10da2a657212e0af22b9cc4182dc4e4b79cd7a012358b4fcc9b4b08b"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]"
+    ],
+    "feature_map_reps": 1,
+    "k": 4,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 5000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l1",
+      "random_state": 42,
+      "solver": "saga",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "shallow control",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_lr",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "C": 1.0,
+    "archived_artifact_config_sha256": "e3507bd62e6e1fea724cd6cf5c45e3dd0cb0bb3c854fe2fb8ba93409dd4a93ce",
+    "archived_artifact_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\runs\\k07\\fs-k07-minmax-rf-z-r1",
+    "archived_calibration_seed": "20261107",
+    "archived_configuration_id": "fs-k07-minmax-rf-z-r1",
+    "candidate_id": "Q10",
+    "data_map_function": "Qiskit default self_product; one-body x_i, two-body (pi-x_i)*(pi-x_j), alpha=2",
+    "enforce_psd_semantics": "Historical callback uses exact Gram, unit diagonal, block symmetry; no numerical PSD projection. Analytic fidelity is PSD mathematically. Preserve this rather than adding a projection.",
+    "entanglement": null,
+    "evidence": {
+      "completed_grid": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\tables\\fixed_split_results.csv",
+        "sha256": "d36b83794af8fe5e12ba8bc7f46e569ad2deaf53ccc74e05f638f24694040d56"
+      },
+      "preprocessing_audit": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\preprocessing\\fs-k07-minmax-rf.audit.json",
+        "sha256": "6ede1f1292f4cc2736d36902053d37438db0e5e4c01e9e2484bfda1ae94845b0"
+      },
+      "training_code": {
+        "path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_qsvc_scaled_grid_20261107\\run_scaled_grid.py",
+        "sha256": "d71aafc2edb1465c69813b158ebac9257b78c82892bf14e54a74acddf1f5027a"
+      }
+    },
+    "feature_map": "ZFeatureMap",
+    "feature_map_alpha": 2.0,
+    "feature_map_input_order": [
+      "x[0]",
+      "x[1]",
+      "x[2]",
+      "x[3]",
+      "x[4]",
+      "x[5]",
+      "x[6]"
+    ],
+    "feature_map_reps": 1,
+    "k": 7,
+    "kernel": {
+      "analytic": true,
+      "enforce_psd": true,
+      "fidelity": "squared statevector overlap",
+      "psd_projection_expected": false,
+      "shots": null
+    },
+    "kernel_dtype": "float64",
+    "rfe_estimator_params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "rfe_step": 1,
+    "role": "shallow control",
+    "scaler": "MinMaxScaler",
+    "scaler_params": {
+      "clip": false,
+      "copy": true,
+      "feature_range": [
+        0,
+        1
+      ]
+    },
+    "selector": "rfe_rf",
+    "statevector_dtype": "complex128",
+    "svc_options": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "verified analytic squared-overlap callback",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": "seed_for(evaluation_id,libsvm)",
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  }
+]

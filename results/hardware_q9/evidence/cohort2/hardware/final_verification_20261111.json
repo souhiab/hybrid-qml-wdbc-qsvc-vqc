@@ -1,0 +1,20 @@
+{
+  "additional_hardware_experimentation_stopped": true,
+  "cohort1_actual_qpu_seconds": 180.0,
+  "cohort2_actual_qpu_seconds": 180.0,
+  "cohort2_job_count": 10,
+  "cohort2_pairs": 2280,
+  "cohort2_returned_shots": 583680,
+  "controller_elapsed_wall_seconds": 429.0064507999996,
+  "cross_cohort_overlap": 0,
+  "cumulative_actual_qpu_seconds": 360.0,
+  "kernels_rebuilt_from_counts": true,
+  "metrics_recomputed": true,
+  "original_svc_native_predictions_and_class0_probabilities_verified": true,
+  "prior_evidence_files_unchanged": 189,
+  "remaining_account_seconds": 240.0,
+  "reserve_seconds": 120,
+  "scaling_and_RFE_training_only": true,
+  "state": "COMPLETE_VERIFIED",
+  "verified": "2026-11-11T09:38:46.346326+00:00"
+}

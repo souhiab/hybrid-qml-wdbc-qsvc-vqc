@@ -1,0 +1,44 @@
+{
+  "conditions": "Conditional on this internal training split, these fitted models, the 16 configurations and three seed pairs; excludes retraining and pilot-selection uncertainty. Repeated predictions are not extra patients; no equivalence or formal multiple-comparison claims.",
+  "fixed_model_panel": 48,
+  "patients": 91,
+  "same_patient_draws_all_budgets_seeds_configurations": true,
+  "uncertainty": [
+    {
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261108,
+      "ci95_high_pp": 1.5109890109890107,
+      "ci95_low_pp": -0.11446886446886428,
+      "comparison": "200-100",
+      "conditional_fixed_panel": true,
+      "margin_interpretation": "inconclusive relative to proposed margin",
+      "mean_change_pp": 0.7097069597069599,
+      "proposed_margin_pp": 0.5,
+      "qubits": 11
+    },
+    {
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261108,
+      "ci95_high_pp": 0.5494505494505493,
+      "ci95_low_pp": -0.5036630036630036,
+      "comparison": "300-200",
+      "conditional_fixed_panel": true,
+      "margin_interpretation": "inconclusive relative to proposed margin",
+      "mean_change_pp": 0.02289377289377291,
+      "proposed_margin_pp": 0.5,
+      "qubits": 11
+    },
+    {
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261108,
+      "ci95_high_pp": 1.5567765567765566,
+      "ci95_low_pp": -0.11446886446886448,
+      "comparison": "300-100",
+      "conditional_fixed_panel": true,
+      "margin_interpretation": "inconclusive relative to proposed margin",
+      "mean_change_pp": 0.7326007326007323,
+      "proposed_margin_pp": 0.5,
+      "qubits": 11
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hardware": {
+    "convergence_warning_count": 0,
+    "maximum_absolute_held_out_margin_change": 0.0008021272518332623,
+    "maximum_absolute_malignant_probability_change": 0.03185810720074711,
+    "maximum_changed_held_out_predictions": 0,
+    "maximum_changed_training_predictions": 0,
+    "maximum_n_iter": 28,
+    "minimum_n_iter": 20,
+    "nonzero_fit_status_count": 0,
+    "permuted_refits": 11,
+    "refits_changing_any_held_out_prediction": 0
+  },
+  "local_exact": {
+    "convergence_warning_count": 0,
+    "maximum_absolute_held_out_margin_change": 0.0005098329950742886,
+    "maximum_absolute_malignant_probability_change": 0.03440293364342517,
+    "maximum_changed_held_out_predictions": 0,
+    "maximum_changed_training_predictions": 0,
+    "maximum_n_iter": 23,
+    "minimum_n_iter": 16,
+    "nonzero_fit_status_count": 0,
+    "permuted_refits": 11,
+    "refits_changing_any_held_out_prediction": 0
+  },
+  "local_shots": {
+    "convergence_warning_count": 0,
+    "maximum_absolute_held_out_margin_change": 0.12663883036685386,
+    "maximum_absolute_malignant_probability_change": 0.07136194165046505,
+    "maximum_changed_held_out_predictions": 0,
+    "maximum_changed_training_predictions": 0,
+    "maximum_n_iter": 35,
+    "minimum_n_iter": 20,
+    "nonzero_fit_status_count": 0,
+    "permuted_refits": 11,
+    "refits_changing_any_held_out_prediction": 0
+  }
+}

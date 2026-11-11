@@ -1,0 +1,13 @@
+{
+  "bootstrap_indices_sha256": "e343fef2ebf9f3a152c72474da52e80a5f1ef837f95f44e2233833354612f51d",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261108,
+  "completed_panels": 3,
+  "conditional_uncertainty": "Conditional on pilot-training split, fitted models, 16 configurations and three seed pairs. Excludes uncertainty from retraining on other samples or pilot selection. No formal multiple-comparison or equivalence claims.",
+  "fits_per_panel": 48,
+  "metric_max_error": 0,
+  "objective_prefix_cases": 48,
+  "objective_prefix_matches": 48,
+  "paired_patient_indices_shared_across_entire_model_panel": true,
+  "patients": 91
+}

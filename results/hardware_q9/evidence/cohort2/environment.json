@@ -1,0 +1,19 @@
+{
+  "available_ram_bytes": 3042283520,
+  "controller_blas_threads": 1,
+  "logical_cores": 8,
+  "packages_installed_or_upgraded_for_this_run": false,
+  "physical_cores": 4,
+  "python_version": "3.11.5",
+  "recorded": "2026-11-11T01:51:44.908507+00:00",
+  "versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.4.6",
+    "psutil": "7.2.2",
+    "qiskit": "2.2.1",
+    "qiskit-aer": "0.17.2",
+    "qiskit-ibm-runtime": "0.42.0",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.17.1"
+  }
+}

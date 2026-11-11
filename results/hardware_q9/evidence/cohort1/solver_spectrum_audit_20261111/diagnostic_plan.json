@@ -1,0 +1,12 @@
+{
+  "calibration_caveat": "probability=True and the original fixed random_state are retained. Row order changes internal calibration folds; probability differences are not attributable solely to the SVM decision solver.",
+  "created": "2026-11-11T01:33:10.339520+00:00",
+  "include_identity_and_reverse_order": true,
+  "material_prediction_change_rule": "Any changed native held-out class prediction versus identity refit is flagged; numerical margin/probability changes also reported without equivalence claims.",
+  "negative_eigenvalue_absolute_tolerance": 1e-10,
+  "permutation_rule": "K_train[P,P], y_train[P], K_test[:,P]; training predictions and margins mapped back by inverse permutation.",
+  "permutation_seed": 20261111,
+  "random_permutations": 10,
+  "scope": "Exploratory classical solver diagnostics on saved kernels; no model selection, new patients, preprocessing fit, QPU jobs, kernels, or production-result replacement.",
+  "score_orientation": "malignant0; negative SVC decision_function; probability column classes_==0"
+}

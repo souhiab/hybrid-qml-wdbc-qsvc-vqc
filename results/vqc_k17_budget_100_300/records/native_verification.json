@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "probability_checks": 108,
+  "actual_17_configuration_seed_vectors": 96,
+  "qiskit_reference": true,
+  "max_amplitude_error": 3.125681717320124e-17,
+  "precision": "complex128; C++ double; /fp:strict; no fast-math",
+  "shots": 1024,
+  "training_fits": 0,
+  "test_cases_scored": 0,
+  "dll_sha256": "5c692e512d7bd586f5d6a44488d3289dffb16a4b2c2f5a2f279266da9fff903b"
+}

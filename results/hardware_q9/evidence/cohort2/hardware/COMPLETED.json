@@ -1,0 +1,23 @@
+{
+  "actual_qpu_seconds": 180.0,
+  "cumulative_actual_qpu_seconds": 360.0,
+  "files": {
+    "Job_Usage_Summary.csv": "95ac984fe944335b352da0d148d852e28b678831388bef866da617f2e15b069d",
+    "final_verification_20261111.json": "be748085e18b62b5601104dc7cc35243854237a9dc03979ecd7a7ffef71a9a25",
+    "kernel_spectrum.json": "037ffa9d5c95bd6ccb6ec6617f9a9430c36cbda820104a90e9c85ba28c5e90a7",
+    "kernels_predictions.npz": "3ae93b41b5f158cedcd972e8fab6a09a6afde687f9295c4614a0dee775cd4f30",
+    "ledger.json": "1d72b41ecec0a31fbb9a63b2fed6f42cc2c43d02bc45bbf74701714219364646",
+    "metrics.json": "b1c18f0206353cf2a0df86f7fe985d30ad557dab5b97e312603927a3e08ba09d",
+    "pilot_provider_status_0155.json": "8384a2c95c3c525b12bc2d5ac316b891466661a503d19b47fa3bf6a71bcab28d",
+    "pilot_provider_status_0200.json": "435bb168ed5d5732d1641b7d0e8f0ff739838277d6597d616bd4b3d93095853b",
+    "pilot_queue_status.json": "143a908a111f4723fa1914aa1e5ef3fefe9c97b46aeecd1d1aaf2abce2bb7e06",
+    "predictions.csv": "d526c56ce51822b880e100ceb81801ccc55dd4f4538a1993b3090b7dfcce398d",
+    "preflight_20261111.json": "f1bc50824807d4d5056d180471f83eadd354795c73ea204f637778d0fafdb311",
+    "svc.joblib": "928fccb7dcbbbcb2f4ae7d1f10f7fb70df277d38f3cf65c6c6822ef3d21e4142",
+    "svc_fit_diagnostics.json": "11aa1b0f9ad10215e648e0e4e0368027cbe9f18e7ca10c0991d19b0e1a6f68ea",
+    "verification.json": "6b46ad44ba674aa50addccdeab2b4fc560a3ee007364c48c9ae815249c0134e4"
+  },
+  "finalized": "2026-11-11T09:38:46.386792+00:00",
+  "identity": "5736137a986305d1d55d5745d00d2f1efd8d9eae5b60b8275817877977266ffa",
+  "pairs": 2280
+}

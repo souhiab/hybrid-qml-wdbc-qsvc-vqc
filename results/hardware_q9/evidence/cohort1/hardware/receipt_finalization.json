@@ -1,0 +1,7 @@
+{
+  "initial_receipt_preserved": "COMPLETED.initial_receipt_20261111.json",
+  "raw_count_coverage_verified": 2280,
+  "reason": "Exclude mutable console logs from authoritative completion hashes; predictions, kernels, metrics and model unchanged.",
+  "recorded": "2026-11-11T00:13:51.596037+00:00",
+  "saved_metrics_recomputed": true
+}

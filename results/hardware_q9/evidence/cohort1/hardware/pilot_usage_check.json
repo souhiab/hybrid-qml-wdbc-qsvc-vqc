@@ -1,0 +1,23 @@
+{
+  "account_usage": {
+    "usage_consumed_seconds": 4,
+    "usage_limit_seconds": 600,
+    "usage_remaining_seconds": 596
+  },
+  "checked": "2026-11-11T00:04:50.887343+00:00",
+  "job_execution_metadata": null,
+  "job_id": "dbpr1t5t7fqc7389sasg",
+  "job_status": "DONE",
+  "job_timestamp_metadata": {
+    "created": "2026-11-11T00:04:04.088612Z",
+    "finished": "2026-11-11T00:04:15.971748Z",
+    "running": "2026-11-11T00:04:05.412506Z"
+  },
+  "job_usage_metadata": {
+    "quantum_seconds": 4,
+    "seconds": 4,
+    "status": "complete"
+  },
+  "remaining_account_seconds": 596.0,
+  "reported_job_usage_seconds": 4
+}

@@ -1,0 +1,21 @@
+{
+  "executable": "D:\\envs\\stage02c-qiskit142-py311\\Scripts\\python.exe",
+  "logical_processors": 8,
+  "packages": {
+    "dill": "0.4.1",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "psutil": "7.2.2",
+    "qiskit": "1.4.2",
+    "qiskit-algorithms": "0.3.1",
+    "qiskit-machine-learning": "0.8.4",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.15.3",
+    "threadpoolctl": "3.7.0"
+  },
+  "physical_cores": 4,
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+  "ram_available": 8301129728,
+  "ram_total": 16900296704
+}

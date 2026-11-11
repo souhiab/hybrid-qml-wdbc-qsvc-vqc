@@ -1,0 +1,290 @@
+{
+  "all_promoted_studies_verified": true,
+  "incomplete_not_promoted": [
+    {
+      "completed_receipts": 10,
+      "expected": 48,
+      "reason": "Incomplete; no final17qubit budget recommendation published",
+      "study": "vqc_k17_budget600"
+    }
+  ],
+  "published_at_UTC": "2026-11-11T16:22:05.594111+00:00",
+  "studies": [
+    {
+      "cohort": "455train /114test; seed42; historical selection history",
+      "completed": 256,
+      "configurations": 256,
+      "data": "results/qsvc_fixed_split",
+      "expected": 256,
+      "family": "QSVC fixed split",
+      "status": "COMPLETE_VERIFIED",
+      "study": "qsvc_fixed_split"
+    },
+    {
+      "cohort": "569WDBC,15outerpartitions",
+      "completed": 255,
+      "configurations": "10QSVC +5matched classical +2strong classical",
+      "data": "results/shared_qsvc_classical",
+      "expected": 255,
+      "family": "QSVC/classical shared3x5folds",
+      "status": "COMPLETE_VERIFIED",
+      "study": "shared_qsvc_classical"
+    },
+    {
+      "budgets": {
+        "100": 192
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 192,
+      "configurations": 64,
+      "data": "results/vqc_k04_cap100",
+      "excluded_partial_stages": {},
+      "expected": 192,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-k04-exact-cached-v1": 16,
+        "vqc-k04-exact-cached-v2": 176
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k04_cap100",
+      "termination_counts": {
+        "budget_exhausted": 165,
+        "converged": 27
+      }
+    },
+    {
+      "budgets": {
+        "100": 48,
+        "200": 48,
+        "300": 48
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 144,
+      "configurations": 16,
+      "data": "results/vqc_k04_budget_split1",
+      "excluded_partial_stages": {},
+      "expected": 144,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-k04-exact-cached-v2": 144
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k04_budget_split1",
+      "termination_counts": {
+        "budget_exhausted": 41,
+        "converged": 103
+      }
+    },
+    {
+      "budgets": {
+        "100": 48,
+        "200": 48
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 96,
+      "configurations": 16,
+      "data": "results/vqc_k04_budget_split2",
+      "excluded_partial_stages": {},
+      "expected": 96,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-k04-exact-cached-v2": 96
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k04_budget_split2",
+      "termination_counts": {
+        "budget_exhausted": 45,
+        "converged": 51
+      }
+    },
+    {
+      "budgets": {
+        "200": 192
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 192,
+      "configurations": 64,
+      "data": "results/vqc_k04_cap200",
+      "excluded_partial_stages": {},
+      "expected": 192,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-sequence-bounded-gates-v3": 192
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k04_cap200",
+      "termination_counts": {
+        "budget_exhausted": 13,
+        "converged": 179
+      }
+    },
+    {
+      "budgets": {
+        "100": 48,
+        "200": 48,
+        "300": 48
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 144,
+      "configurations": 16,
+      "data": "results/vqc_k07_budget",
+      "excluded_partial_stages": {},
+      "expected": 144,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-sequence-bounded-gates-v3": 144
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k07_budget",
+      "termination_counts": {
+        "budget_exhausted": 80,
+        "converged": 64
+      }
+    },
+    {
+      "budgets": {
+        "100": 48,
+        "200": 48,
+        "300": 48
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 144,
+      "configurations": 16,
+      "data": "results/vqc_k11_budget",
+      "excluded_partial_stages": {},
+      "expected": 144,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-sequence-bounded-gates-v3": 144
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k11_budget",
+      "termination_counts": {
+        "budget_exhausted": 118,
+        "converged": 26
+      }
+    },
+    {
+      "budgets": {
+        "300": 192
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 192,
+      "configurations": 64,
+      "data": "results/vqc_k07_cap300",
+      "excluded_partial_stages": {},
+      "expected": 192,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-sequence-bounded-gates-v3": 192
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k07_cap300",
+      "termination_counts": {
+        "budget_exhausted": 29,
+        "converged": 163
+      }
+    },
+    {
+      "budgets": {
+        "400": 192
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 192,
+      "configurations": 64,
+      "data": "results/vqc_k11_cap400",
+      "excluded_partial_stages": {},
+      "expected": 192,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-sequence-bounded-gates-v3": 192
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k11_cap400",
+      "termination_counts": {
+        "budget_exhausted": 30,
+        "converged": 162
+      }
+    },
+    {
+      "budgets": {
+        "200": 90,
+        "300": 90
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 180,
+      "configurations": 4,
+      "data": "results/vqc_shared_k04_k07",
+      "excluded_partial_stages": {},
+      "expected": 180,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-sequence-bounded-gates-v3": 180
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_shared_k04_k07",
+      "termination_counts": {
+        "budget_exhausted": 62,
+        "converged": 118
+      }
+    },
+    {
+      "budgets": {
+        "400": 90
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 90,
+      "configurations": 2,
+      "data": "results/vqc_shared_k11",
+      "excluded_partial_stages": {},
+      "expected": 90,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-sequence-bounded-gates-v3": 90
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_shared_k11",
+      "termination_counts": {
+        "budget_exhausted": 39,
+        "converged": 51
+      }
+    },
+    {
+      "budgets": {
+        "100": 48,
+        "300": 48
+      },
+      "cohort": "original455/114 fixed split or364/91 internal pilot or shared CV; see manifest",
+      "completed": 96,
+      "configurations": 16,
+      "data": "results/vqc_k17_budget_100_300",
+      "excluded_partial_stages": {
+        "(600, 'completed')": 10
+      },
+      "expected": 96,
+      "family": "VQC simulator",
+      "implementation_versions": {
+        "vqc-exact-inverse-cdf-v4": 20,
+        "vqc-native-strict-complex128-v5": 70,
+        "vqc-sequence-bounded-gates-v3": 6
+      },
+      "status": "COMPLETE_VERIFIED",
+      "study": "vqc_k17_budget_100_300",
+      "termination_counts": {
+        "budget_exhausted": 83,
+        "converged": 13
+      }
+    },
+    {
+      "actual_QPU_seconds": 360,
+      "cohort": "two disjoint72-case cohorts,48train24test each",
+      "completed": 2,
+      "data": "results/hardware_q9",
+      "expected": 2,
+      "family": "QSVC hardware matched exact/finite-shot",
+      "no_further_hardware_authorized": true,
+      "status": "COMPLETE_VERIFIED",
+      "study": "hardware_q9"
+    }
+  ]
+}

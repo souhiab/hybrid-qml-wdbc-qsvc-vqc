@@ -1,0 +1,15 @@
+{
+  "files": {
+    "kernel_spectrum.json": "9826f80e69f567ee3efed09e8b8ac1896c48ab7c4e3f00c9e32b0ccbf1632510",
+    "kernels_predictions.npz": "543163cf31ee06ec04a6501c5783d07fce723e45f4482dd419c872a6d5577693",
+    "metrics.json": "abbe5831c784ac0ff0d864a36f8a957792c7f0016b7839284da68045c16b9914",
+    "predictions.csv": "69b84eaebb07954249952df52d127f6eae774cba959d271d9eceb3ac311ff326",
+    "raw_counts.json": "47835e09af33ca5c505d49bc93a7cce11217461b1ce4ea5c5df45b83489968c0",
+    "runtime.json": "115ecb35b0c667f1757e1f249885be423b1c2c6fbab2ca0e2ae1c33ec160f6d6",
+    "svc.joblib": "8ef2452b252703334e8bddde0a3eef55d0682fddcdd39edacd0c03b1ef477c27",
+    "verification.json": "2b2713b42880ca6bf58ca13697a3e33f2d48d716d2a3e1cc7efb5d99c4430b15"
+  },
+  "identity": "31625a065d0cf225c26de7dd71a0af4c967b4098b148fa0be957592721b3f292",
+  "n_test": 24,
+  "pair_coverage": 2280
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "kernel_spectrum.json": "2cfff915ca2a357da25af7999cea403d27cd99abdba75c3ab9d71e933163c7e0",
+    "kernels_predictions.npz": "1dae7346960144861f16fcdd24f0734c9d9ccf095611497ae8f0ae3bbf5e63a0",
+    "metrics.json": "9be951159f1e8ce68e267c33a052c711e1d5614cebfdf1a0b4c11c2cedf9f36a",
+    "predictions.csv": "ed68b6f2cb922db224e04602044d2e881221e2c1a55650c3407ca34543143534",
+    "runtime.json": "0d031d06d6ca8c4adf4d68c7f42b32581a3a0d2ce0859197658eb60e1dbd45f4",
+    "svc.joblib": "8292ab4979d1f5a68c7b4ad5d72f4e1fe030b2af8c06db7007db69aeeb8978f5",
+    "svc_fit_diagnostics.json": "98c83794ad3297f49421482bc9cb291b2f83e472659210ca18e1a4a8cdf7b113",
+    "verification.json": "841326277e9baefe8da9a168ee9e98e3e3e87701dc870b7f53dfeddc7550f591"
+  },
+  "identity": "ce5df1378a90a72ab1918228d98e467dbb3adb78a8385987e7ae30326123f65f",
+  "n_test": 24,
+  "pair_coverage": 2280
+}

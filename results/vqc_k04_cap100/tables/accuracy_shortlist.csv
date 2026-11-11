@@ -1,0 +1,2 @@
+accuracy_shortlist,ansatz_reps,complete,configuration_id,encoder,failed_seed_outcomes,failure_rate,feature_map_reps,max_accuracy,mean_accuracy,mean_f1,mean_roc_auc,mean_sensitivity,mean_specificity,min_accuracy,pending_seed_outcomes,rfe_estimator,sample_std_accuracy,scaler,topology,total_correct_across_seeds,valid_seed_outcomes
+True,2,True,vqc-k04-minmax-rf-z-f2-a2,Z,0,0.0,2,0.9473684210526315,0.935672514619883,0.9041835357624831,0.9891424162257496,0.8253968253968255,1.0,0.9298245614035088,0,Random Forest,0.010128952091046034,MinMaxScaler,,320,3

@@ -1,0 +1,108 @@
+{
+  "candidate": "Bounded read-only cache of exact controlled-NOT index permutations; no floating-point calculation changed.",
+  "candidate_speedup_factor": 1.032842992056785,
+  "engine_sha256": "259cbb4be25f0c01fb0b5ba9520f70924a11d604b9d6c292902d475b62a0270e",
+  "finite_shot_probability_checks": 72,
+  "full_364_row_probability_checks": 12,
+  "optimizer_fits_executed": 0,
+  "optimizer_loss_shots_precision_seeds_circuits_unchanged": true,
+  "passed": true,
+  "probabilities_bitwise_identical": true,
+  "profile": [
+    {
+      "calls": 1,
+      "function": "forward",
+      "self_seconds": 2.4500000000000003e-05,
+      "total_seconds": 0.2057411
+    },
+    {
+      "calls": 1,
+      "function": "_forward",
+      "self_seconds": 0.0005991000000000001,
+      "total_seconds": 0.20569880000000001
+    },
+    {
+      "calls": 46,
+      "function": "evolve_ansatz",
+      "self_seconds": 0.1484292,
+      "total_seconds": 0.17217190000000002
+    },
+    {
+      "calls": 46,
+      "function": "sampled_binary_probabilities",
+      "self_seconds": 0.0065033,
+      "total_seconds": 0.028459300000000003
+    },
+    {
+      "calls": 3082,
+      "function": "<method 'copy' of 'numpy.ndarray' objects>",
+      "self_seconds": 0.023062000000000003,
+      "total_seconds": 0.023062000000000003
+    },
+    {
+      "calls": 92,
+      "function": "_wrapfunc",
+      "self_seconds": 0.0001361,
+      "total_seconds": 0.0183241
+    },
+    {
+      "calls": 46,
+      "function": "searchsorted",
+      "self_seconds": 7.27e-05,
+      "total_seconds": 0.0163463
+    },
+    {
+      "calls": 46,
+      "function": "<method 'searchsorted' of 'numpy.ndarray' objects>",
+      "self_seconds": 0.0162104,
+      "total_seconds": 0.0162104
+    },
+    {
+      "calls": 46,
+      "function": "cumsum",
+      "self_seconds": 9.340000000000001e-05,
+      "total_seconds": 0.0021439000000000002
+    },
+    {
+      "calls": 46,
+      "function": "<method 'cumsum' of 'numpy.ndarray' objects>",
+      "self_seconds": 0.0019419,
+      "total_seconds": 0.0019419
+    },
+    {
+      "calls": 1,
+      "function": "decompose",
+      "self_seconds": 9.2e-06,
+      "total_seconds": 0.0016586
+    },
+    {
+      "calls": 1,
+      "function": "decompose",
+      "self_seconds": 3.6e-05,
+      "total_seconds": 0.0016494
+    }
+  ],
+  "retain_inner_loop_change": true,
+  "timings": [
+    {
+      "engine": "before",
+      "forward_calls": 12,
+      "seconds": 2.4357448001392186
+    },
+    {
+      "engine": "candidate",
+      "forward_calls": 12,
+      "seconds": 2.341285299975425
+    },
+    {
+      "engine": "before",
+      "forward_calls": 12,
+      "seconds": 2.516330200014636
+    },
+    {
+      "engine": "candidate",
+      "forward_calls": 12,
+      "seconds": 2.4533204999752343
+    }
+  ]
+}

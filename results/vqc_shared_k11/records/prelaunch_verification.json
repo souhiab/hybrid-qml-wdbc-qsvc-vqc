@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "fit_rows": 90,
+  "candidate_count": 2,
+  "shared_partitions": 15,
+  "seeds": 3,
+  "all_training_only_audits_verified": true,
+  "fold_mapping_verified": true,
+  "synthetic_oof_aggregation_passed": true,
+  "VQC_optimizer_fits_launched": 0,
+  "fixed_split_models_reused": false
+}

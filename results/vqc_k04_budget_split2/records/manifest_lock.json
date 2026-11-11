@@ -1,0 +1,12 @@
+{
+  "engine_sha256": "a6157a51709bd3596c48c1f93309fa57889d2bc9a1c42122a300431df42452de",
+  "expected_outcomes": 96,
+  "first_pilot_manifest_sha256": "72a9aea9f51a36169693f5059fecd6f3ba058c38fd23b5b9cff21ee5d37a45fe",
+  "fresh_split2_preprocessing": true,
+  "manifest_sha256": "4852e59c67e11caacb75a1d36dcc967af11298509f1c371628abdb974531b4bf",
+  "original_engine_sha256": "a6157a51709bd3596c48c1f93309fa57889d2bc9a1c42122a300431df42452de",
+  "same_16_configurations": true,
+  "same_explicit_initial_vectors": true,
+  "split_sha256": "a00d8d67c4f2a42b38d44b6e6022a15b2191d1e9ce62a93e63a9bfc464c5b63f",
+  "training_data_sha256": "43b0642565cefe32332d96d614e2d882ba3b960f21abf0554141722463d4b7e5"
+}

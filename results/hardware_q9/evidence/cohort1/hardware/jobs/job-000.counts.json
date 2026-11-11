@@ -1,0 +1,739 @@
+{
+  "identity": "4c030735df6f2b6b7ad5320729a3382797002f2514e7be65bce7f1e26cb9ecfc",
+  "records": [
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 0,
+        "id": "train-000-001",
+        "j": 1,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 186,
+        "0001": 41,
+        "0010": 1,
+        "0100": 24,
+        "0101": 4
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.7265625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 1,
+        "id": "train-001-028",
+        "j": 28,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 207,
+        "0001": 21,
+        "0010": 2,
+        "0100": 19,
+        "0101": 1,
+        "1000": 5,
+        "1001": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.80859375
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 3,
+        "id": "train-003-013",
+        "j": 13,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 217,
+        "0001": 2,
+        "0010": 21,
+        "0100": 6,
+        "1000": 9,
+        "1010": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.84765625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 4,
+        "id": "train-004-043",
+        "j": 43,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 227,
+        "0001": 11,
+        "0010": 3,
+        "0100": 10,
+        "1000": 3,
+        "1001": 1,
+        "1100": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.88671875
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 6,
+        "id": "train-006-034",
+        "j": 34,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 176,
+        "0001": 23,
+        "0010": 10,
+        "0011": 3,
+        "0100": 16,
+        "0101": 2,
+        "0110": 1,
+        "1000": 19,
+        "1001": 5,
+        "1010": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.6875
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 8,
+        "id": "train-008-028",
+        "j": 28,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 231,
+        "0001": 2,
+        "0010": 1,
+        "0100": 18,
+        "1000": 4
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.90234375
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 10,
+        "id": "train-010-027",
+        "j": 27,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 68,
+        "0010": 15,
+        "0100": 17,
+        "0110": 3,
+        "1000": 122,
+        "1010": 14,
+        "1100": 16,
+        "1110": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.265625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 12,
+        "id": "train-012-029",
+        "j": 29,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 108,
+        "0001": 49,
+        "0010": 61,
+        "0011": 31,
+        "0100": 2,
+        "0101": 2,
+        "0110": 2,
+        "1000": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.421875
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 14,
+        "id": "train-014-036",
+        "j": 36,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 153,
+        "0001": 52,
+        "0010": 20,
+        "0011": 5,
+        "0100": 12,
+        "0101": 6,
+        "0110": 2,
+        "1000": 3,
+        "1001": 1,
+        "1100": 2
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.59765625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 16,
+        "id": "train-016-046",
+        "j": 46,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 215,
+        "0001": 25,
+        "0100": 9,
+        "1000": 6,
+        "1001": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.83984375
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 19,
+        "id": "train-019-033",
+        "j": 33,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 96,
+        "0001": 64,
+        "0010": 35,
+        "0011": 34,
+        "0100": 9,
+        "0101": 7,
+        "0110": 2,
+        "0111": 2,
+        "1000": 4,
+        "1001": 3
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.375
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 22,
+        "id": "train-022-028",
+        "j": 28,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 245,
+        "0001": 3,
+        "0010": 3,
+        "0100": 1,
+        "1000": 4
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.95703125
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 25,
+        "id": "train-025-033",
+        "j": 33,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 90,
+        "0001": 27,
+        "0010": 86,
+        "0011": 32,
+        "0100": 5,
+        "0101": 2,
+        "0110": 7,
+        "0111": 1,
+        "1000": 4,
+        "1010": 1,
+        "1011": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.3515625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 28,
+        "id": "train-028-046",
+        "j": 46,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 232,
+        "0001": 19,
+        "0100": 5
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.90625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 33,
+        "id": "train-033-040",
+        "j": 40,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 104,
+        "0001": 23,
+        "0010": 72,
+        "0011": 13,
+        "0100": 25,
+        "0101": 3,
+        "0110": 10,
+        "0111": 5,
+        "1011": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.40625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 40,
+        "id": "train-040-043",
+        "j": 43,
+        "kind": "train"
+      },
+      "raw_counts": {
+        "0000": 108,
+        "0001": 36,
+        "0010": 26,
+        "0011": 15,
+        "0100": 43,
+        "0101": 10,
+        "0110": 13,
+        "0111": 3,
+        "1010": 2
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.421875
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 1,
+        "id": "test-001-000",
+        "j": 0,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 185,
+        "0001": 17,
+        "0010": 7,
+        "0011": 2,
+        "0100": 3,
+        "0101": 1,
+        "1000": 35,
+        "1001": 3,
+        "1010": 3
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.72265625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 2,
+        "id": "test-002-025",
+        "j": 25,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 192,
+        "0001": 31,
+        "0010": 2,
+        "0100": 14,
+        "0101": 2,
+        "1000": 9,
+        "1010": 1,
+        "1100": 5
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.75
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 4,
+        "id": "test-004-003",
+        "j": 3,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 195,
+        "0001": 3,
+        "0010": 22,
+        "0011": 1,
+        "0100": 28,
+        "0101": 1,
+        "0110": 3,
+        "1000": 3
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.76171875
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 5,
+        "id": "test-005-028",
+        "j": 28,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 241,
+        "0001": 2,
+        "0100": 12,
+        "1000": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.94140625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 7,
+        "id": "test-007-006",
+        "j": 6,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 179,
+        "0001": 21,
+        "0010": 2,
+        "0100": 40,
+        "0101": 7,
+        "1000": 1,
+        "1001": 1,
+        "1100": 5
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.69921875
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 8,
+        "id": "test-008-031",
+        "j": 31,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 208,
+        "0001": 19,
+        "0010": 5,
+        "0100": 10,
+        "0101": 2,
+        "1000": 11,
+        "1100": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.8125
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 10,
+        "id": "test-010-009",
+        "j": 9,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 175,
+        "0001": 46,
+        "0010": 20,
+        "0011": 11,
+        "0101": 1,
+        "0110": 1,
+        "1000": 1,
+        "1001": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.68359375
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 11,
+        "id": "test-011-034",
+        "j": 34,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 138,
+        "0001": 19,
+        "0010": 7,
+        "0011": 1,
+        "0100": 31,
+        "0101": 4,
+        "0110": 1,
+        "1000": 34,
+        "1001": 4,
+        "1010": 1,
+        "1100": 11,
+        "1101": 4,
+        "1111": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.5390625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 13,
+        "id": "test-013-012",
+        "j": 12,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 153,
+        "0001": 32,
+        "0010": 26,
+        "0011": 5,
+        "0100": 32,
+        "0110": 4,
+        "0111": 2,
+        "1000": 2
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.59765625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 14,
+        "id": "test-014-037",
+        "j": 37,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 218,
+        "0001": 2,
+        "0010": 12,
+        "0100": 15,
+        "0110": 3,
+        "1000": 6
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.8515625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 16,
+        "id": "test-016-015",
+        "j": 15,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 105,
+        "0001": 52,
+        "0010": 24,
+        "0011": 5,
+        "0100": 30,
+        "0101": 21,
+        "0110": 9,
+        "0111": 8,
+        "1000": 1,
+        "1001": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.41015625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 17,
+        "id": "test-017-040",
+        "j": 40,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 159,
+        "0001": 61,
+        "0010": 5,
+        "0011": 1,
+        "0100": 9,
+        "0101": 3,
+        "1000": 14,
+        "1001": 3,
+        "1010": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.62109375
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 19,
+        "id": "test-019-018",
+        "j": 18,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 153,
+        "0001": 14,
+        "0010": 1,
+        "0011": 1,
+        "0100": 51,
+        "0101": 3,
+        "0110": 1,
+        "1000": 21,
+        "1001": 2,
+        "1010": 1,
+        "1100": 7,
+        "1101": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.59765625
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 20,
+        "id": "test-020-043",
+        "j": 43,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 101,
+        "0001": 68,
+        "0010": 38,
+        "0011": 22,
+        "0100": 12,
+        "0101": 7,
+        "0110": 3,
+        "1000": 1,
+        "1001": 3,
+        "1101": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.39453125
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 22,
+        "id": "test-022-021",
+        "j": 21,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 178,
+        "0001": 5,
+        "0010": 10,
+        "0011": 1,
+        "0100": 54,
+        "0101": 2,
+        "0110": 3,
+        "1000": 2,
+        "1110": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.6953125
+    },
+    {
+      "job_id": "dbpr1t5t7fqc7389sasg",
+      "job_key": "job-000",
+      "pair": {
+        "i": 23,
+        "id": "test-023-047",
+        "j": 47,
+        "kind": "test"
+      },
+      "raw_counts": {
+        "0000": 210,
+        "0001": 14,
+        "0010": 24,
+        "0011": 1,
+        "0100": 3,
+        "1000": 3,
+        "1010": 1
+      },
+      "requested_shots": 256,
+      "returned_shots": 256,
+      "zero_probability": 0.8203125
+    }
+  ]
+}

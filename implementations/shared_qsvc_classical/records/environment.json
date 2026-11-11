@@ -1,0 +1,16 @@
+{
+  "executable": "D:\\envs\\stage02c-qiskit142-py311\\Scripts\\python.exe",
+  "packages": {
+    "joblib": "1.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "psutil": "7.2.2",
+    "qiskit": "1.4.2",
+    "qiskit-algorithms": "0.3.1",
+    "qiskit-machine-learning": "0.8.4",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.15.3",
+    "threadpoolctl": "3.7.0"
+  },
+  "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": "2026-11-11T01:54:07.502276+00:00",
+  "circuit_parameter_order_preserved": true,
+  "first_layout": [
+    114,
+    23,
+    58,
+    121
+  ],
+  "same_backend": true,
+  "same_explicit_open_plan_instance": true,
+  "second_layout": [
+    114,
+    23,
+    58,
+    121
+  ]
+}

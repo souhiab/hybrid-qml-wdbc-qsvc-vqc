@@ -1,0 +1,11 @@
+{
+  "asynchronous_excel_updates_verified_in_order": 10,
+  "bounded_queue": 4,
+  "no_per_task_worker_recycling": true,
+  "passed": true,
+  "persistent_pool_jobs_completed": 60,
+  "pool_reused_across_groups": true,
+  "single_excel_sync_thread": true,
+  "training_fits_executed": 0,
+  "worker_count_bound": 3
+}

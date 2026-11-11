@@ -1,0 +1,21 @@
+{
+  "FN": 3,
+  "FP": 1,
+  "TN": 14,
+  "TP": 6,
+  "accuracy": 0.8333333333333334,
+  "accuracy_wilson95_descriptive": [
+    0.6414692935030095,
+    0.9332132367136705
+  ],
+  "average_precision": 0.9253086419753086,
+  "correct": 20,
+  "decision_score_auc": 0.9481481481481482,
+  "f1": 0.75,
+  "n": 24,
+  "precision": 0.8571428571428571,
+  "roc_auc": 0.9481481481481482,
+  "sensitivity": 0.6666666666666666,
+  "specificity": 0.9333333333333333,
+  "uncertainty_note": "24-case feasibility uncertainty; not independent validation or uncertainty over the prior configuration selection."
+}

@@ -1,0 +1,12 @@
+{
+  "fit_status": 0,
+  "interpretation": "Successful termination is not a proof of a global optimum for an indefinite kernel or of generalization.",
+  "n_iter": [
+    18
+  ],
+  "n_support_per_class": [
+    10,
+    9
+  ],
+  "warnings": []
+}

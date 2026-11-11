@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "actual_configuration_seed_checks": 144,
+  "widths": [
+    7,
+    11,
+    17
+  ],
+  "qiskit_statevector_reference": true,
+  "exact_1024_shot_probabilities": true,
+  "max_amplitude_absolute_error": 1.4946834900704541e-16,
+  "optimizer_fits": 0,
+  "raw_WDBC_used": false,
+  "seconds": 65.125984699931,
+  "limitations": "Floating-point BLAS rotation is tolerance-equivalent, not guaranteed bit-identical for every possible vector. Tested shot probabilities are exactly equal."
+}

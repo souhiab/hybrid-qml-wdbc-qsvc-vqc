@@ -1,146 +1,55 @@
-# Hybrid Quantum-Classical Breast Cancer Classification (WDBC)
+# WDBC QSVC, classical and VQC experiments
 
-Source code and reproducibility materials for the study **"Hybrid
-Quantum-Classical Breast Cancer Classification: A Systematic Study of Feature
-Maps, Entanglement, and Scaling on WDBC."**
+Verified completed studies, corrected training-only preprocessing, original execution snapshots and two matched IBM hardware checks. No authoritative manuscript is included or used in this update.
 
-The project systematically compares classical baselines against quantum
-support vector classifiers (QSVC) and variational quantum classifiers (VQC) on
-the Wisconsin Diagnostic Breast Cancer (WDBC) dataset, studying the effect of
-quantum feature maps, entanglement structure, circuit repetitions, feature
-scaling, and the number of selected features. It also includes noisy-simulation
-and real-QPU follow-up experiments on IBM Quantum hardware.
+## Completed evidence
 
-## Dataset
+|Study|Verified coverage|Type|
+|---|---:|---|
+|qsvc_fixed_split|256/256|QSVC fixed split|
+|shared_qsvc_classical|255/255|QSVC/classical shared3x5folds|
+|vqc_k04_cap100|192/192|VQC simulator|
+|vqc_k04_budget_split1|144/144|VQC simulator|
+|vqc_k04_budget_split2|96/96|VQC simulator|
+|vqc_k04_cap200|192/192|VQC simulator|
+|vqc_k07_budget|144/144|VQC simulator|
+|vqc_k11_budget|144/144|VQC simulator|
+|vqc_k07_cap300|192/192|VQC simulator|
+|vqc_k11_cap400|192/192|VQC simulator|
+|vqc_shared_k04_k07|180/180|VQC simulator|
+|vqc_shared_k11|90/90|VQC simulator|
+|vqc_k17_budget_100_300|96/96|VQC simulator|
+|hardware_q9|2/2|QSVC hardware matched exact/finite-shot|
 
-This study uses the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset
-(569 samples, 30 features, binary malignant/benign target). It is loaded
-directly from scikit-learn:
+The 17-qubit cap-600 pilot is incomplete and excluded from completed results. The cap-100 and cap-300 stages are separate completed evidence; no final 17-qubit budget decision is claimed.
 
-```python
-from sklearn.datasets import load_breast_cancer
-data = load_breast_cancer()
+## Verify without training
+
+```powershell
+python tools/verify_results.py
 ```
 
-The same dataset is publicly available from the
-[UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic).
-No manual download is required and **no private or personally identifiable
-clinical data are included in this repository.**
+Requires NumPy. This verifies saved files and recomputes metrics without fitting WDBC models or contacting IBM. See [reproducibility](docs/reproducibility.md) and [known issues](docs/KNOWN_ISSUES.md).
 
-## Repository contents
+## Structure
 
-```
-.
-├── README.md
-├── LICENSE                      # MIT
-├── CITATION.cff
-├── requirements.txt
-├── .gitignore
-├── docs/
-│   ├── reproducibility.md       # full step-by-step reproduction guide
-│   └── manuscript_availability.md
-├── scripts/
-│   └── smoke_test.py            # quick environment / pipeline sanity check
-└── qsvm_on_wdbc/
-    ├── qsvm.ipynb               # main study: classical baselines + QSVC/VQC sweeps + analysis
-    ├── REAL_QPU.ipynb           # real-QPU + noisy-simulation follow-up (IBM Quantum)
-    ├── explo.ipynb              # exploratory analysis and figures
-    ├── quantum_no_scaling_sweep.py   # batch QSVC sweep on raw (unscaled) RFE features
-    ├── best_classical_table.md  # best classical baseline per feature count
-    ├── classical_rfe_fixed_counts.csv          # RFE-selected feature sets (k = 4,7,11,17,18)
-    ├── classical_rfe_configs_with_auc_checked.csv
-    ├── CLASSICAL_svm_on_rfe_configs.csv
-    ├── splits/split_idx.json    # fixed train/test split indices
-    └── tables/table3_best_configs.csv          # compact best-configuration manifest
+```text
+results/                 Verified predictions, metrics, workbooks, per-fit evidence
+  STUDIES.json           Coverage and completion index
+  qsvc_fixed_split/      256 corrected configurations
+  shared_qsvc_classical/ 150 QSVC + 105 classical outer evaluations
+  vqc_*/                 Completed grids, shared folds and budget pilots
+  hardware_q9/           Two disjoint 72-case matched hardware cohorts
+implementations/         Original validated code, configuration and split snapshots
+tools/                   Portable read-only evidence verification
+qsvm_on_wdbc/budgeted_qpu/ Guarded hardware implementation
+scripts/                 Synthetic regression tests
+docs/                    Corrections, limitations and reproduction instructions
+legacy/                  Historical notebook guidance
 ```
 
-Large generated artifacts (figures, PDFs, kernel matrices, saved models,
-per-run dumps) are intentionally not version-controlled; they are regenerated
-by running the notebooks. See `.gitignore` for the full list.
+The 255 shared QSVC/classical evaluations include 150 QSVC, 75 matched RBF-SVM and 30 verified strong-classical results. All use the same three-repeat, five-fold assignments. Later VQC shared-fold studies retain three training seed outcomes per candidate and partition. Do not count repeated patient predictions as independent patients.
 
-## Installation
+Malignant is original source label 0. Training-only preprocessing repairs leakage, but historical selection on WDBC remains: these are internal exploratory comparisons, not independent validation. Hardware cohorts each contain 48 training and 24 held-out cases; matched exact, finite-shot and hardware results are reported separately regardless of performance.
 
-```bash
-python -m venv .venv
-# Windows:  .venv\Scripts\activate
-# Linux/macOS:  source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-The requirements file records the historical repository pins
-(`qiskit==2.2.1`, `qiskit-aer==0.17.2`, `qiskit-machine-learning==0.8.2`).
-
-## Reproducing the experiments
-
-A quick sanity check of the environment and pipeline:
-
-```bash
-python scripts/smoke_test.py
-```
-
-The no-scaling QSVC sweep (command-line, resumable):
-
-```bash
-cd qsvm_on_wdbc
-python quantum_no_scaling_sweep.py
-```
-
-Open the simulation notebook from its own directory:
-
-```bash
-cd qsvm_on_wdbc
-jupyter notebook qsvm.ipynb
-```
-
-The classical and quantum simulation fit cells split the raw data before
-fitting scaling and RFE. They write separate `*_train_only.csv` files. The
-historical CSVs, analysis cells, and hardware notebook document the archived
-study. Fixed-split scores describe performance on the original test cases.
-Use the manuscript's repeated evaluation for comparisons with training-only
-model selection.
-
-See **[docs/reproducibility.md](docs/reproducibility.md)** for the detailed
-methodology: preprocessing, RFE feature selection, feature maps, entanglement
-settings, repetitions, metrics, random seeds, and how figures/tables are
-generated.
-
-### Expected outputs
-
-- `qsvm_on_wdbc/quantum_no_scaling_qsvc_results_train_only.csv` — one row per
-  (feature count, feature map, entanglement, reps) with accuracy, AUC, F1,
-  the overfit gap, and the confusion-matrix breakdown.
-- The scaled simulator sweep writes `qsvm_on_wdbc/quantum_each_results_train_only.csv`.
-
-### Real-QPU runs (optional)
-
-`qsvm_on_wdbc/REAL_QPU.ipynb` targets IBM Quantum hardware and noisy Aer
-simulation. Provide your IBM Quantum API token through an environment variable
-(never hard-code it):
-
-```bash
-# Windows (PowerShell):  $env:IBM_QUANTUM_TOKEN = "<your token>"
-# Linux/macOS:           export IBM_QUANTUM_TOKEN="<your token>"
-```
-
-## Data availability
-
-This study uses the Wisconsin Diagnostic Breast Cancer dataset, which is
-publicly available from the UCI Machine Learning Repository and through the
-`sklearn.datasets.load_breast_cancer` utility. No private or personally
-identifiable clinical data are included in this repository.
-
-## Code availability
-
-The source code and reproducibility materials for the experiments reported in
-the manuscript are publicly available in this repository:
-
-https://github.com/souhiab/hybrid-qml-wdbc-qsvc-vqc
-
-## Citation
-
-If you use this code, please cite the associated manuscript. Citation metadata
-is provided in [CITATION.cff](CITATION.cff).
-
-## License
-
-Released under the [MIT License](LICENSE).
+Original notebooks are retained for historical compatibility. Their displayed outputs are not the default corrected results. Execution snapshots can contain original machine paths and must be relocated into new output directories before rerunning. No new training or QPU submissions were performed for this publication update.

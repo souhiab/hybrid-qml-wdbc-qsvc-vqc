@@ -1,0 +1,249 @@
+{
+  "alias_semantics_verified": true,
+  "cases": 48,
+  "checks": [
+    {
+      "configuration_id": "pilot-p0-r0-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p0-r0-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p0-r0-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p0-r1-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p0-r1-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p0-r1-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p0-r2-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p0-r2-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p0-r2-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p0-r3-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p0-r3-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p0-r3-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p1-r0-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p1-r0-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p1-r0-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p1-r1-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p1-r1-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p1-r1-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p1-r2-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p1-r2-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p1-r2-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p1-r3-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p1-r3-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p1-r3-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p2-r0-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p2-r0-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p2-r0-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p2-r1-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p2-r1-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p2-r1-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p2-r2-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p2-r2-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p2-r2-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p2-r3-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p2-r3-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p2-r3-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p3-r0-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p3-r0-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p3-r0-m3",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p3-r1-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p3-r1-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p3-r1-m0",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p3-r2-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p3-r2-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p3-r2-m1",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    },
+    {
+      "configuration_id": "pilot-p3-r3-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1101
+    },
+    {
+      "configuration_id": "pilot-p3-r3-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1211
+    },
+    {
+      "configuration_id": "pilot-p3-r3-m2",
+      "max_probability_error": 0.0,
+      "sampler_seed": 1307
+    }
+  ],
+  "input_partition": "pilot_training_only",
+  "max_probability_error": 0,
+  "passed": true
+}

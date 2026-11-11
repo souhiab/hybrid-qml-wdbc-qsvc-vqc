@@ -1,0 +1,11 @@
+{
+  "files": {
+    "prepare_vqc.py": "a42f41d65e07a63300745df3f660afe52fd71067b69d835b290efebbfc02d5c9",
+    "run_vqc.py": "688ab494c5710dde24d3abd33aa1de9222b8453bf53ddcdab7c8904bc8ddfde8",
+    "validate_vqc.py": "fe115e19444f7bd4e725a6b4ced3c51687c992728ff256cb3ebdb9fc15050a09",
+    "vqc_engine.py": "a6157a51709bd3596c48c1f93309fa57889d2bc9a1c42122a300431df42452de",
+    "workbook_support/workbook_writer.mjs": "cf3eea213a1c050aa648c8b5d499c30b14a37b55988a02f22f07224d567eb875"
+  },
+  "locked": "2026-11-08T00:47:34+00:00",
+  "version": "vqc-k04-exact-cached-v2"
+}

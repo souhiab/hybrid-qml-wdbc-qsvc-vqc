@@ -1,0 +1,8 @@
+{
+  "actual_qpu_seconds": 180.0,
+  "cumulative_actual_qpu_seconds": 360.0,
+  "finished": "2026-11-11T09:38:46.359330+00:00",
+  "pairs": 2280,
+  "remaining_account_seconds": 240.0,
+  "state": "COMPLETE_VERIFIED"
+}

@@ -1,0 +1,27 @@
+# Stage 02C compatible environment after four explicitly authorized additions.
+# Python 3.11.5; D:\envs\stage02c-qiskit142-py311; Windows amd64.
+# New wheel SHA-256 hashes are in quantum_adapter_install_actual.json.
+cloudpickle==3.1.2
+dill==0.4.1
+joblib==1.6.0
+mpmath==1.3.0
+numpy==2.2.6
+pandas==2.2.3
+pip==23.2.1
+psutil==7.2.2
+python-dateutil==2.9.0.post0
+pytz==2026.5
+qiskit==1.4.2
+qiskit-algorithms==0.3.1
+qiskit-machine-learning==0.8.4
+rustworkx==0.18.1
+scikit-learn==1.6.1
+scipy==1.15.3
+setuptools==65.5.0
+six==1.17.0
+stevedore==5.9.1
+symengine==0.13.0
+sympy==1.14.0
+threadpoolctl==3.7.0
+typing_extensions==4.16.0
+tzdata==2026.5

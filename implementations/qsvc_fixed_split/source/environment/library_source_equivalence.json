@@ -1,0 +1,9 @@
+{
+  "environment_note": "The repository pins Qiskit 2.2.1 with QML 0.8.2, an import-incompatible pair. Execution uses the existing validated Qiskit 1.4.2/QML 0.8.4 environment. The exact FidelityStatevectorKernel and QSVC source files are text-identical to the local QML 0.8.2 sources. The original 2025 execution-time package lock remains unavailable.",
+  "kernel_sources_equal_after_line_ending_normalization": true,
+  "qml_0_8_2_kernel_normalized_sha256": "29c12128d10da05c42c2a875957c6fa487bf2fca8bb7fff943ed23e84c8fbd10",
+  "qml_0_8_2_qsvc_normalized_sha256": "907a24ce3ddbfbbb658e891594dfee6fe4b6ca1d51d0de9691d95f33396f5382",
+  "qml_0_8_4_kernel_normalized_sha256": "29c12128d10da05c42c2a875957c6fa487bf2fca8bb7fff943ed23e84c8fbd10",
+  "qml_0_8_4_qsvc_normalized_sha256": "907a24ce3ddbfbbb658e891594dfee6fe4b6ca1d51d0de9691d95f33396f5382",
+  "qsvc_sources_equal_after_line_ending_normalization": true
+}

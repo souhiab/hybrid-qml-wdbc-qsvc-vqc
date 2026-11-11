@@ -1,0 +1,41 @@
+item,value
+accuracy_ties,retain all exact ties using sum of correct counts across three equal 114-case test sets; no metric tie-break
+benchmark_ids,"[""vqc-k04-standard-lr-z-f1-a1-s1"", ""vqc-k04-standard-lr-zz-full-f2-a2-s1""]"
+budget,100
+budget_unit,objective evaluations
+decision_rule,"argmax of one final probability array in source-class order [0,1]; ties choose first column, malignant source class 0"
+exact_optimizer_resume_supported,False
+exact_sampler_resume_supported,integer sampler seed reproduces each circuit; COBYLA internal optimizer state is not serializable for exact continuation
+global_rngs,"numpy.random.seed(initialization_seed), qiskit_algorithms.utils.algorithm_globals.random_seed and qiskit_machine_learning.utils.algorithm_globals.random_seed set per fit; initial point from separate default_rng(initialization_seed)"
+historical_differences,explicit reverse_linear RealAmplitudes connectivity and final layer; ansatz reps 1 and 2 versus historical reps 1; 3 declared seed pairs with explicit uniform initial vectors versus uncontrolled defaults; explicit shots 1024 and cross entropy; training-only preprocessing
+implementation_version,vqc-k04-exact-cached-v1
+incomplete_configurations,"mean/std/min/max and mean clinical metrics unavailable until all three valid outcomes exist; show counts, failures and partial outcomes separately; excluded from shortlist"
+interpretation,"basis_state % 2 (least-significant measured bit), not Hamming-weight parity; OneHotEncoder sorts source classes [0,1]; column 0 malignant"
+interruption_rule,preserve interrupted attempt and restart from original saved vector and seed pair under a new attempt ID; never resume from final angles alone
+loss,cross_entropy
+loss_log_base,2
+maxiter_meaning,"SciPy 1.15 COBYLA maxiter is passed as maxfun, the maximum number of function evaluations"
+optimizer,COBYLA
+primary_ranking,mean test accuracy of exactly three valid seed outcomes
+rhobeg,1.0
+sampler_rng,"fresh StatevectorSampler(default_shots=1024, seed=integer sampler_seed) per fit; installed implementation resets default_rng(integer_seed) per bound circuit; common random uniforms across samples and evaluations preserved"
+seed_pairs,"[[1, 101, 1101], [2, 211, 1211], [3, 307, 1307]]"
+shots,1024
+technical_retry_rule,"at most one automatic retry for OSError, MemoryError, TimeoutError, BrokenProcessPool or serialization/I/O failure; preserved new attempt; no retry for budget exhaustion, poor scores, numerical validation or scientific failures"
+test_access,test inputs attach only after fitting; final predict_proba once per fit on test; all labels/predictions derived from that array; no test-driven training changes
+tol,
+warm_start,False
+manifest.json,72cba77c37626fee60f2ae1ca714183a3253d2f3345e76cf2a425401f37f08ed
+source/data/wdbc_arrays.npz,e422cfb19e9b2860a1f752cb174940892d07dde5947c7a42a5691c54699922e0
+source/historical/split_idx.json,45e3ab3754c661fbfebe8e4aee20844b17fe5cfb62105b51b8540d92ed800a65
+records/environment.json,db9b9fab3fb49c6d75c1093038d04c56bed80d83a8be21bc5a9b41a07e440be4
+records/simulator_validation.json,69b69a52c256b7dbc2adb64d53b7d72f7592cc23ddd9e4007c098ffe898bfcc5
+vqc_engine.py,a6157a51709bd3596c48c1f93309fa57889d2bc9a1c42122a300431df42452de
+run_vqc.py,688ab494c5710dde24d3abd33aa1de9222b8453bf53ddcdab7c8904bc8ddfde8
+execution_implementation_versions,"{""vqc-k04-exact-cached-v1"": 16, ""vqc-k04-exact-cached-v2"": 176}"
+implementation_transition,records/implementation_transition_v2.json; first 16 completed v1 fits retained; remaining fits v2; one interrupted attempt restarted from original initialization
+workbook_revision,records/workbook_writer_update.json; changed-row synchronization and canonical Excel blank/timestamp readback
+data_sha256,e422cfb19e9b2860a1f752cb174940892d07dde5947c7a42a5691c54699922e0
+split_sha256,45e3ab3754c661fbfebe8e4aee20844b17fe5cfb62105b51b8540d92ed800a65
+optimizer_exact_resume,Unsupported; original initialization and seeds restart under a new attempt ID
+source_and_environment,"records/environment.json, records/installed_source_semantics.json, records/production_source_lock.json, versions/v1/"

@@ -1,0 +1,10 @@
+{
+  "budget_exhausted": 165,
+  "converged": 27,
+  "flag_definition": "Last-20 loss range exceeds best-loss improvement over that window and contains upward steps; this is an ambiguity flag, not a measured shot-noise estimate or a convergence test.",
+  "original_test_metrics_read": false,
+  "rows": 192,
+  "source_manifest_sha256": "72cba77c37626fee60f2ae1ca714183a3253d2f3345e76cf2a425401f37f08ed",
+  "training_only": true,
+  "uncertain_plateau_flags": 179
+}

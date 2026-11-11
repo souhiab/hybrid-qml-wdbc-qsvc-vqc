@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "training_rows": 364,
+  "test_rows_scored": 0,
+  "optimizer_fits": 0,
+  "fit_id": "internal-budget-pilot-k17-minmax-lr-z-f1-a1-i101-s1101-b100",
+  "weights": "saved final weights; unchanged",
+  "exact_saved_training_probabilities_match": true,
+  "seconds": {
+    "original": 16.269574000000148,
+    "native": 2.2770839999998316
+  },
+  "single_worker_speedup": 7.14491604174521,
+  "source_prediction_file_unchanged": true,
+  "cache_hash_checked": true
+}

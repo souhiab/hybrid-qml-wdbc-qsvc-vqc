@@ -1,0 +1,404 @@
+{
+  "passed": true,
+  "ranking": [
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-z-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 216,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-z-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 226,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-z-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 248,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-z-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 289,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-linear-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 238,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-linear-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 211,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-linear-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 208,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-linear-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 242,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-full-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 265,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-full-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 268,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-full-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 185,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-full-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 179,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-circular-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 247,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-circular-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 255,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-circular-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 201,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-lr-zz-circular-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 252,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-z-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 222,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-z-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 227,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-z-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 294,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-z-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 287,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-linear-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 269,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-linear-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 273,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-linear-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 243,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-linear-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 299,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-full-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 254,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-full-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 242,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-full-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 192,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-full-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 201,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-circular-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 252,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-circular-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 256,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-circular-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 257,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-circular-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 260,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-z-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 176,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-z-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 169,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-z-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 196,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-z-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 201,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-linear-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 187,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-linear-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 169,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-linear-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 161,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-linear-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 171,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-full-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 168,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-full-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 159,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-full-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 185,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-full-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 174,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-circular-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 161,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-circular-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 164,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-circular-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 175,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-lr-zz-circular-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 167,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-z-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 230,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-z-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 232,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-z-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 236,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-z-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 244,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-linear-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 190,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-linear-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 174,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-linear-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 217,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-linear-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 206,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-full-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 177,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-full-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 172,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-full-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 189,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-full-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 166,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-circular-f1-a1",
+      "qubits": 11,
+      "sum_correct_count": 166,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-circular-f1-a2",
+      "qubits": 11,
+      "sum_correct_count": 174,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-circular-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 176,
+      "trainable_parameters": 22
+    },
+    {
+      "configuration_id": "full-grid-k11-standard-rf-zz-circular-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 169,
+      "trainable_parameters": 33
+    }
+  ],
+  "selected": [
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-zz-linear-f2-a2",
+      "qubits": 11,
+      "sum_correct_count": 299,
+      "trainable_parameters": 33
+    },
+    {
+      "configuration_id": "full-grid-k11-minmax-rf-z-f2-a1",
+      "qubits": 11,
+      "sum_correct_count": 294,
+      "trainable_parameters": 22
+    }
+  ],
+  "no_best_seed_selected": true
+}

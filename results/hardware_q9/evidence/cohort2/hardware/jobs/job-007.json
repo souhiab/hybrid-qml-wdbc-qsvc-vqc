@@ -1,0 +1,21 @@
+{
+  "actual_service_qpu_seconds": 20,
+  "completed": "2026-11-11T09:37:26.635421+00:00",
+  "failure_type": null,
+  "job_id": "dbq3edoou4as73cuh8i0",
+  "job_key": "job-007",
+  "last_reported_service_qpu_seconds": 20,
+  "result_and_usage_wait_wall_seconds": 32.46674440000061,
+  "service_timestamps": {
+    "created": "2026-11-11T09:36:55.45712Z",
+    "finished": "2026-11-11T09:37:21.408599Z",
+    "running": "2026-11-11T09:36:56.62716Z"
+  },
+  "service_usage_metadata": {
+    "quantum_seconds": 20,
+    "seconds": 20,
+    "status": "complete"
+  },
+  "status": "DONE",
+  "usage_settlement_wait_seconds": 5.963010699999359
+}

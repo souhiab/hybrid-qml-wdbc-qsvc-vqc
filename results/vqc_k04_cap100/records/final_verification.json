@@ -1,0 +1,37 @@
+{
+  "all_outcomes_accounted_for": true,
+  "attempt_state_counts": {
+    "completed": 192,
+    "interrupted": 1
+  },
+  "budget_exhausted": 165,
+  "complete_configurations": 64,
+  "completed": 192,
+  "converged": 27,
+  "execution_state": "completed",
+  "expected_configurations": 64,
+  "expected_fits": 192,
+  "failed": 0,
+  "failure_rate": 0.0,
+  "finite_shot_probabilities_verified": true,
+  "malignant_column": 0,
+  "max_metric_recomputation_error": 0,
+  "ordered_split_verified": true,
+  "passed": true,
+  "pending": 0,
+  "runner_active": false,
+  "runner_pid": 23592,
+  "source_unchanged_since_production_freeze": true,
+  "termination_counts": {
+    "budget_exhausted": 165,
+    "converged": 27
+  },
+  "test_counts": {
+    "benign": 72,
+    "malignant": 42
+  },
+  "train_only_fit_audits_verified": true,
+  "updated": "2026-11-08T01:02:18+00:00",
+  "verified_at": "2026-11-08T01:02:18+00:00",
+  "workbook_readback_passed": true
+}

@@ -1,0 +1,39 @@
+{
+  "evidence_type": "shared-fold-vqc",
+  "candidate_count": 2,
+  "outer_partitions": 15,
+  "seed_pairs": [
+    [
+      101,
+      1101
+    ],
+    [
+      211,
+      1211
+    ],
+    [
+      307,
+      1307
+    ]
+  ],
+  "expected_fits": 90,
+  "fold_manifest_sha256": "ba484635cbb8dedcdfc2d6ab50c551e2ba6fab6d062b7a059d8600ad20fd2d8c",
+  "training_only": "Scaler and RFE fit only each outer-training partition; no fitted fixed-split preprocessing/models reused. No hyperparameter or threshold tuning.",
+  "ansatz": "RealAmplitudes reverse_linear, final rotation enabled",
+  "feature_map": "V11-A: ZZFeatureMap linear reps2; V11-B: ZFeatureMap reps2 without entanglement argument",
+  "loss": "cross_entropy, installed base-2 logarithm and clipping 1e-10",
+  "shots": 1024,
+  "precision": "complex128/float64",
+  "optimizer": "COBYLA",
+  "rhobeg": 1.0,
+  "tol": null,
+  "initialization": "Explicit uniform [0,1) vectors recovered from verified full-grid manifests; fresh independent models/optimizers/samplers per fold and seed; no warm starts",
+  "positive_label": 0,
+  "decision": "argmax over classes [0,1]; ties malignant 0",
+  "ranking": "Candidates frozen by user after three-seed mean full-grid accuracy; Two highest three-seed mean accuracy configurations from the completed eleven-qubit cap-400 grid. No tie-break needed for these two ranks. No best-seed selection.",
+  "aggregation": "Save every seed; complete candidate/fold requires all three valid outcomes. Equal-weight seed/fold means separate from per-repeat pooled OOF metrics; do not count repeated patient predictions as independent patients.",
+  "termination": "Retain valid budget-exhausted outcomes; distinguish optimizer convergence; retain all poor outcomes.",
+  "technical_retry": "One retry for technical failures only. Interrupted fits restart original vector/seeds under next attempt ID; exact optimizer restoration unsupported.",
+  "selection_history": "Exploratory shortlist selected on this same dataset; shared-fold evaluation is internal repeated evaluation, not independent validation.",
+  "original_test_used_field": "Worker legacy field means use of the original fixed 114-case test cohort; false here because scoring uses frozen outer held-out folds, not that fixed cohort."
+}

@@ -1,0 +1,41 @@
+{
+  "available_account_seconds": 600.0,
+  "backend": "ibm_fez",
+  "checked": "2026-11-11T00:03:40.152424+00:00",
+  "current_circuit_duration_seconds": 1.708e-06,
+  "current_rep_delay_seconds": 0.00025,
+  "current_reset_duration_seconds": 1.684e-06,
+  "explicit_user_authorization": "2026-11-11: start run and record all needed information",
+  "frozen_layout_retained": true,
+  "hardware_jobs_submitted_at_preflight": 0,
+  "input_identity": "4c030735df6f2b6b7ad5320729a3382797002f2514e7be65bce7f1e26cb9ecfc",
+  "operational": true,
+  "other_pending_instance_jobs": 0,
+  "pending_backend_jobs": 0,
+  "planned_allowances_seconds": 274,
+  "preparation_manifest_verified": true,
+  "protected_reserve_seconds": 120,
+  "qubit_calibration": [
+    {
+      "qubit": 114,
+      "readout_error": 0.0009765625,
+      "sx_error": 0.0003153055290953451
+    },
+    {
+      "qubit": 23,
+      "readout_error": 0.00244140625,
+      "sx_error": 0.00020531973705814393
+    },
+    {
+      "qubit": 58,
+      "readout_error": 0.0029296875,
+      "sx_error": 0.0002818773162638579
+    },
+    {
+      "qubit": 121,
+      "readout_error": 0.00341796875,
+      "sx_error": 0.00017173539301673822
+    }
+  ],
+  "state": "PREFLIGHT_PASSED"
+}

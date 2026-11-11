@@ -1,0 +1,9 @@
+{
+  "all_fits_converged_claim": false,
+  "budget_exception_retained": true,
+  "completed": 192,
+  "configuration_summaries": 64,
+  "failed": 0,
+  "predictions_and_metrics_verified": true,
+  "workbook_all_sheets_match_tables": true
+}

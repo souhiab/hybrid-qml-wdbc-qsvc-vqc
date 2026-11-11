@@ -1,0 +1,22 @@
+{
+  "actual_qpu_seconds": 180.0,
+  "files": {
+    "billing_settlement_correction.json": "23ed65de20c4c794f6670a65afa5463153f1624626fc03c3dfa4306812a618cd",
+    "execution_controller_launched.py": "f35caa5230eb501e8cbf5366f22a804b7d5525732bde5f214a095fdf30f9c351",
+    "execution_safety_tests.log": "aba183d3196a3b06abce196e532ca5dd45d16b97b8ed2a4927dfc9fc7f43bbf7",
+    "kernel_spectrum.json": "7ccf80dfadcdc2cce3836ff7ba6b1f254b7f89dfb2a0742b74ba2b40f150cafe",
+    "kernels_predictions.npz": "9c90de5463273ef4e8f5374daf525328252ff3347f0f4b143a7c7cb6c86d47df",
+    "ledger.json": "b7eda24130f91749064810a9b204f23f9ff70dc8ec9c2386a8ccf7aa1c47a1e9",
+    "main_console.log": "894d50cd822bc61860c4b601d2d8c92fb69c99e7c4b464ec6cd92ed479be080b",
+    "metrics.json": "81157653f147b265734918265e79cf1c961f73c86572cce4f3c22548613b5ec9",
+    "pilot_console.log": "659315d7f2e475387cc65e4fb0c0a2b54de8406ea0614302ca1e0736efcce96f",
+    "pilot_usage_check.json": "6adbf8564fac12d468b6a6d57086bcae629e9e919d9d8ebc935efc96e7865911",
+    "predictions.csv": "c9ede13be8b207955be6e4b01dedac259734f56ea445c9f7fe14ea01ea786f9e",
+    "preflight_20261111.json": "e8ec8efb542e079b45c2c757986c4e547f4496eb8d19304b062732b48178d1a1",
+    "supervision.json": "d5cbbf3e89ff5d413e37a5252455095deaa1a2ca586fcfd7abad4a0211f85332",
+    "svc.joblib": "b7b5dbd0ccfbe353d086951ad5fcafdba66b7d3c0718899ce8440e1bcc753923",
+    "verification.json": "6022e4a0102c04d6a193e9d0731c0979e0341e5b6643756796389b35dac2a942"
+  },
+  "identity": "4c030735df6f2b6b7ad5320729a3382797002f2514e7be65bce7f1e26cb9ecfc",
+  "pairs": 2280
+}

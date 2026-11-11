@@ -1,0 +1,431 @@
+{
+  "RFE_importance_getter": "auto",
+  "RFE_verbose": 0,
+  "qsvc_and_matched": [
+    {
+      "candidate_id": "Q1",
+      "k": 4,
+      "rfe_estimator_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 5000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l1",
+        "random_state": 42,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q2",
+      "k": 7,
+      "rfe_estimator_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q3",
+      "k": 11,
+      "rfe_estimator_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 5000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l1",
+        "random_state": 42,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q4",
+      "k": 11,
+      "rfe_estimator_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 5000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l1",
+        "random_state": 42,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q5",
+      "k": 11,
+      "rfe_estimator_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 5000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l1",
+        "random_state": 42,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q6",
+      "k": 17,
+      "rfe_estimator_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 5000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l1",
+        "random_state": 42,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q7",
+      "k": 17,
+      "rfe_estimator_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 5000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l1",
+        "random_state": 42,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q8",
+      "k": 17,
+      "rfe_estimator_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q9",
+      "k": 4,
+      "rfe_estimator_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 5000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l1",
+        "random_state": 42,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "candidate_id": "Q10",
+      "k": 7,
+      "rfe_estimator_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "rfe_step": 1,
+      "scaler_params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    }
+  ],
+  "strong_k_values": [
+    4,
+    7,
+    11,
+    17,
+    18
+  ],
+  "strong_scalers": {
+    "minmax": {
+      "class": "MinMaxScaler",
+      "params": {
+        "clip": false,
+        "copy": true,
+        "feature_range": [
+          0,
+          1
+        ]
+      }
+    },
+    "standard": {
+      "class": "StandardScaler",
+      "params": {
+        "copy": true,
+        "with_mean": true,
+        "with_std": true
+      }
+    }
+  },
+  "strong_selectors": {
+    "pca": {
+      "class": "PCA",
+      "params": {
+        "copy": true,
+        "iterated_power": "auto",
+        "n_components": 7,
+        "n_oversamples": 10,
+        "power_iteration_normalizer": "auto",
+        "random_state": null,
+        "svd_solver": "full",
+        "tol": 0.0,
+        "whiten": false
+      }
+    },
+    "rfe_lr": {
+      "class": "RFE",
+      "params": {
+        "estimator": {
+          "class": "LogisticRegression",
+          "params": {
+            "C": 1.0,
+            "class_weight": null,
+            "dual": false,
+            "fit_intercept": true,
+            "intercept_scaling": 1,
+            "l1_ratio": null,
+            "max_iter": 5000,
+            "multi_class": "deprecated",
+            "n_jobs": null,
+            "penalty": "l1",
+            "random_state": 20261009,
+            "solver": "saga",
+            "tol": 0.0001,
+            "verbose": 0,
+            "warm_start": false
+          }
+        },
+        "importance_getter": "auto",
+        "n_features_to_select": 7,
+        "step": 1,
+        "verbose": 0
+      }
+    },
+    "rfe_rf": {
+      "class": "RFE",
+      "params": {
+        "estimator": {
+          "class": "RandomForestClassifier",
+          "params": {
+            "bootstrap": true,
+            "ccp_alpha": 0.0,
+            "class_weight": null,
+            "criterion": "gini",
+            "max_depth": null,
+            "max_features": "sqrt",
+            "max_leaf_nodes": null,
+            "max_samples": null,
+            "min_impurity_decrease": 0.0,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "min_weight_fraction_leaf": 0.0,
+            "monotonic_cst": null,
+            "n_estimators": 500,
+            "n_jobs": 1,
+            "oob_score": false,
+            "random_state": 20261009,
+            "verbose": 0,
+            "warm_start": false
+          }
+        },
+        "importance_getter": "auto",
+        "n_features_to_select": 7,
+        "step": 1,
+        "verbose": 0
+      }
+    },
+    "select_k_best": {
+      "class": "SelectKBest",
+      "params": {
+        "k": 7,
+        "score_func": "sklearn.feature_selection._univariate_selection.f_classif"
+      }
+    }
+  }
+}

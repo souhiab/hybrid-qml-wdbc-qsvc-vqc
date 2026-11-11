@@ -1,0 +1,17 @@
+{
+  "archive_note": "WDBC_QPU_budget_analysis.zip was not supplied/found in the inspected attachment and project locations; no settings inferred from it.",
+  "calibration_seed_delta": "Archive uncontrolled None; new feasibility SVC probability calibration explicitly seeded 20261110.",
+  "created": "2026-11-10T17:24:22.453924+00:00",
+  "local_branch": "prepare/q9-budgeted-qpu",
+  "optional_noise_simulation": "Not implemented or executed; local results are ideal exact and ideal finite-shot only.",
+  "original_notebook_preserved": true,
+  "paid_dry_runs": 0,
+  "python": "D:\\envs\\wdbc-ibm-runtime-py311\\Scripts\\python.exe",
+  "python_version": "3.11.5",
+  "qpu_jobs_submitted_by_preparation": 0,
+  "reviewed_fix": "face7c34afb2f0ed45448bef89ab18afc772bebb",
+  "reviewed_main": "bd6906faa2a4d1118f3e830401975d570f6baf1c",
+  "reviewed_remote_difference": "None at preparation inspection",
+  "sessions_created": 0,
+  "source_repository": "https://github.com/souhiab/hybrid-qml-wdbc-qsvc-vqc"
+}

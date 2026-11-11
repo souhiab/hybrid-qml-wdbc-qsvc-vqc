@@ -1,0 +1,28 @@
+{
+  "accuracy_interval_trigger": true,
+  "activation_decision_at_200": {
+    "accuracy_interval_trigger": true,
+    "add_300": true,
+    "complete_panels": true,
+    "completion_trigger": true,
+    "convergence_fraction_at_200": 0.041666666666666664,
+    "full_grid_launched": false,
+    "qubits": 11,
+    "recommendation_status": "no recommendation satisfies complete-panel and completion criterion",
+    "recommended_budget": null,
+    "requires_review": true,
+    "tested_budgets": "100;200",
+    "upper_200_minus_100_pp": 1.5109890109890107
+  },
+  "add_300": true,
+  "complete_panels": true,
+  "completion_trigger": true,
+  "convergence_fraction_at_200": 0.041666666666666664,
+  "full_grid_launched": false,
+  "qubits": 11,
+  "recommendation_status": "no recommendation satisfies complete-panel and completion criterion",
+  "recommended_budget": null,
+  "requires_review": true,
+  "tested_budgets": "100;200;300",
+  "upper_200_minus_100_pp": 1.5109890109890107
+}

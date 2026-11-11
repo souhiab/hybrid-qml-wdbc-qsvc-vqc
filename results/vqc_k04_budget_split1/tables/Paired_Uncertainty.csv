@@ -1,0 +1,4 @@
+comparison,priority,mean_change_pp,ci95_low_pp,ci95_high_pp,proposed_margin_pp,margin_interpretation,bootstrap_resamples,bootstrap_seed
+200-100,primary,0.13736263736263737,-0.06868131868131885,0.3434065934065936,0.5,incremental_gain_below_proposed_margin,10000,20261108
+300-200,primary,0.0,0.0,0.0,0.5,incremental_gain_below_proposed_margin,10000,20261108
+300-100,secondary,0.13736263736263737,-0.06868131868131885,0.3434065934065936,0.5,incremental_gain_below_proposed_margin,10000,20261108

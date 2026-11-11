@@ -1,0 +1,42 @@
+{
+  "estimator_params": {
+    "C": 1.0,
+    "class_weight": null,
+    "fit_intercept": true,
+    "max_iter": 5000,
+    "penalty": "l1",
+    "random_state": 42,
+    "solver": "saga",
+    "tol": 0.0001
+  },
+  "evaluation_labels_in_fit": false,
+  "evaluation_rows_in_fit": false,
+  "extra_pi_scaling": false,
+  "fit_training_rows": 48,
+  "raw_training_sha256": "2290df6d8eab00db7a76456e19afe82d62629949b1de75717fea457c223800d4",
+  "rfe_step": 1,
+  "scaler_params": {
+    "clip": false,
+    "copy": true,
+    "feature_range": [
+      0,
+      1
+    ]
+  },
+  "selected_indices": [
+    7,
+    20,
+    21,
+    29
+  ],
+  "selected_names": [
+    "mean concave points",
+    "worst radius",
+    "worst texture",
+    "worst fractal dimension"
+  ],
+  "test_clipping": false,
+  "test_transformed_sha256": "1c1784298981e3831e4c8f895af2664cf5b8acb7f9a3b74ae3a42b54b889285e",
+  "training_labels_sha256": "4140d0605b2332268a3e9f7426cc543f402019fbc400f88478ccbb632c7058a9",
+  "training_transformed_sha256": "60429b2410d0cf5fcdfec13cb42a474f467d427f625a7b6b95b5b2d51978425e"
+}

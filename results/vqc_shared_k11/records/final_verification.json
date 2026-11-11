@@ -1,0 +1,13 @@
+{
+  "all_fits_converged_claim": false,
+  "all_receipts_and_metrics_verified": true,
+  "all_seed_outcomes_retained": true,
+  "candidate_count": 2,
+  "fits": 90,
+  "fold_manifest_sha256": "ba484635cbb8dedcdfc2d6ab50c551e2ba6fab6d062b7a059d8600ad20fd2d8c",
+  "outer_partitions": 15,
+  "seeds": 3,
+  "training_only_preprocessing": true,
+  "verified_at": "2026-11-09T00:02:23.475681+00:00",
+  "workbook_readback_all_passed": true
+}

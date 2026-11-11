@@ -1,0 +1,13 @@
+{
+  "bootstrap_indices_sha256": "a01b3dcdf9c83e26046f903899b71084e7b564fbaf570cfb002226bf6448756e",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261109,
+  "completed_panels": 2,
+  "conditional_uncertainty": "Conditional on split 2, these fitted models, the same 16 configurations and three seed pairs. Overlap with split 1 does not create independent patients. No pooling of overlapping splits.",
+  "fits_per_panel": 48,
+  "metric_max_error": 0,
+  "objective_prefix_cases": 48,
+  "objective_prefix_matches": 48,
+  "paired_patient_indices_shared_across_entire_model_panel": true,
+  "patients": 91
+}

@@ -1,0 +1,7 @@
+{
+  "hardware_execution": false,
+  "kernel_pairs": 2280,
+  "local_simulation_and_model_seconds": 7.126894500001072,
+  "qpu_jobs_submitted": 0,
+  "shot_executions": 583680
+}

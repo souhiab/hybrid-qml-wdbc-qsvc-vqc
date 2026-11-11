@@ -1,0 +1,38 @@
+{
+  "hardware": {
+    "fit_status": 0,
+    "n_iter": [
+      25
+    ],
+    "n_support_per_class": [
+      10,
+      9
+    ],
+    "original_hardware_console_convergence_warning_mentions": 0,
+    "original_warning_capture": "Not captured as structured data at original fit. Cannot reconstruct historical warning events from the pickle."
+  },
+  "local_exact": {
+    "fit_status": 0,
+    "n_iter": [
+      17
+    ],
+    "n_support_per_class": [
+      8,
+      9
+    ],
+    "original_hardware_console_convergence_warning_mentions": null,
+    "original_warning_capture": "Not captured as structured data at original fit. Cannot reconstruct historical warning events from the pickle."
+  },
+  "local_shots": {
+    "fit_status": 0,
+    "n_iter": [
+      24
+    ],
+    "n_support_per_class": [
+      9,
+      10
+    ],
+    "original_hardware_console_convergence_warning_mentions": null,
+    "original_warning_capture": "Not captured as structured data at original fit. Cannot reconstruct historical warning events from the pickle."
+  }
+}

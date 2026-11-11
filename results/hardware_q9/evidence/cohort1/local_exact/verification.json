@@ -1,0 +1,11 @@
+{
+  "input_kernel_hash": "16dde893649434b7906c7fc9d0226e6ed9922906deb76e31f2b81f7148093c7f",
+  "malignant_positive": true,
+  "model_classes": [
+    0,
+    1
+  ],
+  "native_prediction_used": true,
+  "no_threshold_optimization": true,
+  "saved_predictions_recomputed": true
+}

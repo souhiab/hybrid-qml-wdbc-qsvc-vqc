@@ -1,0 +1,16 @@
+{
+  "files": {
+    "kernel_spectrum.json": "0611aab19dd13bf3cb6849458048ed1c40f76141fad21412d36e3e277d5f978e",
+    "kernels_predictions.npz": "22c5455d0c5ea93924a34fb51fbdd624109934fdf7df60575b8a2125c8b63611",
+    "metrics.json": "d5e35b234f91e8a554a8c409c9a6a40bed4d4f95a36db1e839d439f3ed1769bf",
+    "predictions.csv": "0634be7c2ead8bfd9ef0752ff8157455e238a2e5e94ddc3a73c2da5d3916af35",
+    "raw_counts.json": "ef427994ceb4a15864d279fe9e642920a71b3d40a6d6b5ad4435d5d79383d9cb",
+    "runtime.json": "25381881bf7ba053918e5b1c3a050901142c71dbd9d39e3f450650f5220b1d59",
+    "svc.joblib": "763e389623f88f376b1c593f5b846200988aaff9225c499e5b4c033fe064326f",
+    "svc_fit_diagnostics.json": "c649bf2a343103c1ff41958ac3bb83e822d9782c01da6aae41f30bc12492681e",
+    "verification.json": "97f9c4caac351bfa5f49cdf39d31123719bdd8511d02bd789139e6fe05d00fdc"
+  },
+  "identity": "0939e64c7692a47c77de1766f8b015c952ceb8cf9cf74b5211b8bc5a83894ff7",
+  "n_test": 24,
+  "pair_coverage": 2280
+}

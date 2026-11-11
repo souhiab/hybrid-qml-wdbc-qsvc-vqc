@@ -1,0 +1,9 @@
+{
+  "account_consumption_agrees": true,
+  "code_change": "Treat transient zero usage after valid circuit results as unresolved; save raw counts first and wait up to60s, then block if still unresolved. No circuit/preprocessing/model setting changed.",
+  "initial_record_preserved": "jobs/job-000.json",
+  "initial_reported_seconds": 0,
+  "job_id": "dbpr1t5t7fqc7389sasg",
+  "recorded": "2026-11-11T00:05:39.557924+00:00",
+  "settled_reported_seconds": 4
+}

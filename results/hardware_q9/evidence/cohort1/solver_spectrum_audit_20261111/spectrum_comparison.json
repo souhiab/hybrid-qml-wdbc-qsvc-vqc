@@ -1,0 +1,50 @@
+{
+  "hardware": {
+    "absolute_spectrum_sum": 52.67618358184181,
+    "matrix_repair_applied": false,
+    "maximum_eigenvalue": 33.87536631939274,
+    "minimum_eigenvalue": -0.2663718626020569,
+    "negative_eigenvalue_count_below_tolerance": 20,
+    "negative_eigenvalue_magnitude_sum": 2.3380917909208905,
+    "negative_mass_fraction_of_absolute_spectrum": 0.04438612731479017,
+    "negative_mass_to_signed_trace_ratio": 0.048710245644185184,
+    "negative_spectral_energy_fraction": 0.00032893579357740375,
+    "negative_threshold": -1e-10,
+    "positive_eigenvalue_sum": 50.33809179092092,
+    "symmetry_max_absolute_error": 0.0,
+    "trace": 48.000000000000036,
+    "unthresholded_negative_eigenvalue_magnitude_sum": 2.3380917909208905
+  },
+  "local_exact": {
+    "absolute_spectrum_sum": 48.0,
+    "matrix_repair_applied": false,
+    "maximum_eigenvalue": 34.310116573931836,
+    "minimum_eigenvalue": 2.828805818192451e-09,
+    "negative_eigenvalue_count_below_tolerance": 0,
+    "negative_eigenvalue_magnitude_sum": -0.0,
+    "negative_mass_fraction_of_absolute_spectrum": -0.0,
+    "negative_mass_to_signed_trace_ratio": -0.0,
+    "negative_spectral_energy_fraction": 0.0,
+    "negative_threshold": -1e-10,
+    "positive_eigenvalue_sum": 48.0,
+    "symmetry_max_absolute_error": 0.0,
+    "trace": 48.0,
+    "unthresholded_negative_eigenvalue_magnitude_sum": -0.0
+  },
+  "local_shots": {
+    "absolute_spectrum_sum": 53.03841649852758,
+    "matrix_repair_applied": false,
+    "maximum_eigenvalue": 34.31230220921785,
+    "minimum_eigenvalue": -0.25807962323408945,
+    "negative_eigenvalue_count_below_tolerance": 19,
+    "negative_eigenvalue_magnitude_sum": 2.519208249263792,
+    "negative_mass_fraction_of_absolute_spectrum": 0.0474978028300247,
+    "negative_mass_to_signed_trace_ratio": 0.052483505192995675,
+    "negative_spectral_energy_fraction": 0.00035968939339766986,
+    "negative_threshold": -1e-10,
+    "positive_eigenvalue_sum": 50.519208249263784,
+    "symmetry_max_absolute_error": 0.0,
+    "trace": 47.99999999999999,
+    "unthresholded_negative_eigenvalue_magnitude_sum": 2.519208249263792
+  }
+}

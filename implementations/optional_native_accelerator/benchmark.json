@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "implementation": "old",
+      "workers": 3,
+      "threads_per_worker": 1,
+      "wall_seconds": 25.173103399999945,
+      "tasks_per_second": 0.39724939118948766,
+      "max_worker_rss": 216686592
+    },
+    {
+      "implementation": "native",
+      "workers": 1,
+      "threads_per_worker": 1,
+      "wall_seconds": 6.501741000000038,
+      "tasks_per_second": 1.5380495777976917,
+      "max_worker_rss": 200007680
+    },
+    {
+      "implementation": "native",
+      "workers": 2,
+      "threads_per_worker": 1,
+      "wall_seconds": 4.142717400000038,
+      "tasks_per_second": 2.4138745259331253,
+      "max_worker_rss": 200466432
+    },
+    {
+      "implementation": "native",
+      "workers": 3,
+      "threads_per_worker": 1,
+      "wall_seconds": 3.6697236999998495,
+      "tasks_per_second": 2.7250007950190938,
+      "max_worker_rss": 200134656
+    },
+    {
+      "implementation": "native",
+      "workers": 4,
+      "threads_per_worker": 1,
+      "wall_seconds": 3.0429417000000285,
+      "tasks_per_second": 3.286293654590854,
+      "max_worker_rss": 199876608
+    },
+    {
+      "implementation": "native",
+      "workers": 5,
+      "threads_per_worker": 1,
+      "wall_seconds": 2.7188644000000295,
+      "tasks_per_second": 3.6780061558053028,
+      "max_worker_rss": 199880704
+    },
+    {
+      "implementation": "old",
+      "workers": 5,
+      "threads_per_worker": 1,
+      "wall_seconds": 22.409571899999946,
+      "tasks_per_second": 0.44623788640960266,
+      "max_worker_rss": 216621056
+    }
+  ],
+  "selected_workers": 5,
+  "throughput_speedup_vs_original_3_workers": 9.25868292659232,
+  "measured_scope": "Synthetic 17-qubit evolved-state + same finite-shot readout; no fitting; no WDBC kernels or test scoring",
+  "available_ram": 8824123392,
+  "physical_cores": 4,
+  "logical_cores": 8,
+  "same_five_worker_throughput_speedup": 8.242254339716133
+}

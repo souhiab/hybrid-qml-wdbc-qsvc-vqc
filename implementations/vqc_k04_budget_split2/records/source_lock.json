@@ -1,0 +1,11 @@
+{
+  "files": {
+    "pilot_analysis.py": "38b4a5c163c37f3528e2c30f839d7019f8ab4925d1827fd74ffce01e9a004406",
+    "pilot_controller.py": "ef806e768784e563e11798d52df88c087d484bafd677212ef15191fdb8d14cbd",
+    "pilot_fit.py": "a0b0498416754a94a31878ea394a41ab7ab56c83324b56f35170417ecf58f0c0",
+    "prepare_pilot.py": "9ef41981b0964a55a987fafb5bdaea5e21b45175dc94d4cfb6887c6dc83ffd08",
+    "vqc_engine.py": "a6157a51709bd3596c48c1f93309fa57889d2bc9a1c42122a300431df42452de",
+    "workbook_support/workbook_writer.mjs": "a3e9147e913c63d6423af3d5bd352e68585ae3865c3fd65245519cf208439205"
+  },
+  "frozen": "2026-11-08T02:56:28+00:00"
+}

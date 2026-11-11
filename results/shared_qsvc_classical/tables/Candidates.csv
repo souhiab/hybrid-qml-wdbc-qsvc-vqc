@@ -1,0 +1,11 @@
+candidate_id,role,k,selector,feature_map,entanglement,feature_map_reps,C,archived_configuration_id
+Q1,selected accuracy leader,4,rfe_lr,ZZFeatureMap,circular,4,1.0,fs-k04-minmax-lr-zz-circular-r4
+Q2,selected accuracy leader,7,rfe_rf,ZZFeatureMap,circular,3,1.0,fs-k07-minmax-rf-zz-circular-r3
+Q3,selected accuracy leader,11,rfe_lr,ZFeatureMap,,1,1.0,fs-k11-minmax-lr-z-r1
+Q4,selected accuracy leader,11,rfe_lr,ZFeatureMap,,2,1.0,fs-k11-minmax-lr-z-r2
+Q5,selected accuracy leader,11,rfe_lr,ZZFeatureMap,linear,4,1.0,fs-k11-minmax-lr-zz-linear-r4
+Q6,selected accuracy leader,17,rfe_lr,ZFeatureMap,,1,1.0,fs-k17-minmax-lr-z-r1
+Q7,selected accuracy leader,17,rfe_lr,ZFeatureMap,,2,1.0,fs-k17-minmax-lr-z-r2
+Q8,selected accuracy leader,17,rfe_rf,ZFeatureMap,,1,1.0,fs-k17-minmax-rf-z-r1
+Q9,shallow control,4,rfe_lr,ZFeatureMap,,1,1.0,fs-k04-minmax-lr-z-r1
+Q10,shallow control,7,rfe_rf,ZFeatureMap,,1,1.0,fs-k07-minmax-rf-z-r1

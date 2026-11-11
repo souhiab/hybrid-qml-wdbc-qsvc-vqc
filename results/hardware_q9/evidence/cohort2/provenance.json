@@ -1,0 +1,10 @@
+{
+  "configuration_source": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_q9_budgeted_preparation_20261110\\protocol.json",
+  "created": "2026-11-11T09:31:33.355692+00:00",
+  "first_run_path": "D:\\PHYSIQUE MATHEMATIQUE\\doctora\\4 EME ANNE\\articles\\breast canser\\wdbc_q9_budgeted_preparation_20261110",
+  "ordered_identifiers": "sklearn source row ordinals, not clinical patient identifiers",
+  "python": "D:\\envs\\wdbc-ibm-runtime-py311\\Scripts\\python.exe",
+  "scope": "One additional disjoint internal robustness cohort, report both cohorts separately regardless of scores; no additional hardware experiments.",
+  "source_repository": "souhiab/hybrid-qml-wdbc-qsvc-vqc",
+  "source_revision": "face7c34afb2f0ed45448bef89ab18afc772bebb + uncommitted budgeted modules"
+}

@@ -1,0 +1,14 @@
+item,value
+manifest.json,4852e59c67e11caacb75a1d36dcc967af11298509f1c371628abdb974531b4bf
+split.json,a00d8d67c4f2a42b38d44b6e6022a15b2191d1e9ce62a93e63a9bfc464c5b63f
+source/original_training_only.npz,43b0642565cefe32332d96d614e2d882ba3b960f21abf0554141722463d4b7e5
+vqc_engine.py,a6157a51709bd3596c48c1f93309fa57889d2bc9a1c42122a300431df42452de
+pilot_fit.py,a0b0498416754a94a31878ea394a41ab7ab56c83324b56f35170417ecf58f0c0
+prepare_pilot.py,9ef41981b0964a55a987fafb5bdaea5e21b45175dc94d4cfb6887c6dc83ffd08
+pilot_controller.py,ef806e768784e563e11798d52df88c087d484bafd677212ef15191fdb8d14cbd
+pilot_analysis.py,38b4a5c163c37f3528e2c30f839d7019f8ab4925d1827fd74ffce01e9a004406
+records/environment.json,d1e80e2f8ab6cde2d51bc9005e4d32703443c00295121cc749a211ddfc43322b
+records/numerical_validation.json,5a0f9edaa5f0d1e899f2e0c6f2992995edb164461919e37a035aa542c7bfb888
+original_test_partition,"No original test cases, labels, predictions or performance metrics are copied or inspected by this pilot."
+patient_bootstrap_unit,91 validation patients; the same resampled patient indices are shared by every budget/configuration/seed; model panel fixed.
+bootstrap_conditions,"Conditional on split 2, these fitted models, the same 16 configurations and three seed pairs. Overlap with split 1 does not create independent patients. No pooling of overlapping splits."

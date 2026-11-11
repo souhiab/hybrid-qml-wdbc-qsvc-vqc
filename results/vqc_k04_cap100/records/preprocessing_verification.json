@@ -1,0 +1,36 @@
+{
+  "positive_source_label": 0,
+  "preprocessing": [
+    {
+      "audit_sha256": "1d462edea041cb2caa7e15c1a874f5ce9af9f013539694b1a635018f52f2d1f7",
+      "cache_sha256": "5c74c351230fae680ec7fd161919c165acd4ad0a654492a33a559dab550c38c4",
+      "preprocessing_id": "fs-k04-standard-lr",
+      "verified": true
+    },
+    {
+      "audit_sha256": "ca37597d13a3e4d2ed2ef3047c23228c1e9e0002683a24da37120e477e5605dd",
+      "cache_sha256": "2fccb622e2af8f8892b68817a7b402106db15e006090f28175fc44c982be7166",
+      "preprocessing_id": "fs-k04-standard-rf",
+      "verified": true
+    },
+    {
+      "audit_sha256": "2e875ebf10da2a657212e0af22b9cc4182dc4e4b79cd7a012358b4fcc9b4b08b",
+      "cache_sha256": "ac51e938e2858fa7a81a0424aaebae74c3827f107cdd0f2cae7a0ff71eb592bd",
+      "preprocessing_id": "fs-k04-minmax-lr",
+      "verified": true
+    },
+    {
+      "audit_sha256": "abc3afa052460cb37f042adc483a8abeced801e7124c44a57294cdc618c293c7",
+      "cache_sha256": "20269a639e01ed3ee85dabef08d37894dc9efdafa47a672af6594575357fbd34",
+      "preprocessing_id": "fs-k04-minmax-rf",
+      "verified": true
+    }
+  ],
+  "test_class_counts": {
+    "benign": 72,
+    "malignant": 42
+  },
+  "test_index_sha256": "8fd360b9297175c7752e01a38be5c9169a3a2a270eba1c5a85f665c10614638a",
+  "train_index_sha256": "3dee11e9b073845d6e982d63195a5f6653843070e2c291fdb46d9a352bf1acc1",
+  "verified": true
+}
